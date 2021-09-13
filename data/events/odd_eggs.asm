@@ -294,7 +294,7 @@ OddEgg2:
 	bigdw 8 ; SDef
 	db "EGG@@@@@@@@"
 	
-	db BALLERINE
+	db BARIRINA
 	db NO_ITEM
 	db BARRIER, CHARM, CONFUSION, DIZZY_PUNCH
 	dw 04096 ; OT ID
@@ -320,7 +320,7 @@ OddEgg2:
 	bigdw 10 ; SDef
 	db "EGG@@@@@@@@"
 	
-	db BALLERINE
+	db BARIRINA
 	db NO_ITEM
 	db BARRIER, CHARM, CONFUSION, DIZZY_PUNCH
 	dw 04096 ; OT ID
@@ -346,7 +346,7 @@ OddEgg2:
 	bigdw 10 ; SDef
 	db "EGG@@@@@@@@"
 	
-	db BALLERINE
+	db BARIRINA
 	db NO_ITEM
 	db BARRIER, CHARM, CONFUSION, DIZZY_PUNCH
 	dw 04096 ; OT ID
@@ -372,7 +372,7 @@ OddEgg2:
 	bigdw 10 ; SDef
 	db "EGG@@@@@@@@"
 
-	db BALLERINE
+	db BARIRINA
 	db NO_ITEM
 	db BARRIER, CHARM, CONFUSION, DIZZY_PUNCH
 	dw 00768 ; OT ID
@@ -554,7 +554,7 @@ OddEgg2:
 	bigdw 11 ; SDef
 	db "EGG@@@@@@@@"
 
-	db ELEBABE
+	db ELEKID
 	db NO_ITEM
 	db QUICK_ATTACK, LEER, DIZZY_PUNCH, 0
 	dw 03072 ; OT ID
@@ -580,7 +580,7 @@ OddEgg2:
 	bigdw 11 ; SDef
 	db "EGG@@@@@@@@"
 
-	db ELEBABE
+	db ELEKID
 	db NO_ITEM
 	db QUICK_ATTACK, LEER, DIZZY_PUNCH, 0
 	dw 03072 ; OT ID
@@ -606,7 +606,7 @@ OddEgg2:
 	bigdw 11 ; SDef
 	db "EGG@@@@@@@@"
 	
-	db ELEBABE
+	db ELEKID
 	db NO_ITEM
 	db QUICK_ATTACK, LEER, DIZZY_PUNCH, 0
 	dw 03072 ; OT ID
@@ -632,7 +632,7 @@ OddEgg2:
 	bigdw 11 ; SDef
 	db "EGG@@@@@@@@"
 	
-	db ELEBABE
+	db ELEKID
 	db NO_ITEM
 	db QUICK_ATTACK, LEER, DIZZY_PUNCH, 0
 	dw 03072 ; OT ID
