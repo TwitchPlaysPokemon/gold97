@@ -26,19 +26,19 @@ SlowpokeWellB1F_MapScripts:
 	writetext BurnedTowerSilver_BeforeText
 	waitbutton
 	closetext
-	checkevent EVENT_GOT_CRUIZE_FROM_ELM
-	iftrue .cruise
+	checkevent EVENT_GOT_PALSSIO_FROM_ELM
+	iftrue .palssio
 	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
 	iftrue .CHIKORITA
 	winlosstext BurnedTowerSilver_WinText, BurnedTowerSilver_LossText
 	;setlasttalked SLOWPOKE_WELL_B1F_SILVER
-	loadtrainer RIVAL1, RIVAL1_3_CRUIZE
+	loadtrainer RIVAL1, RIVAL1_3_PALSSIO
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
 	jump .returnfrombattle
 
-.cruise
+.palssio
 	winlosstext BurnedTowerSilver_WinText, BurnedTowerSilver_LossText
 	;setlasttalked SLOWPOKE_WELL_B1F_SILVER
 	loadtrainer RIVAL1, RIVAL1_3_CHIKORITA
@@ -50,7 +50,7 @@ SlowpokeWellB1F_MapScripts:
 .CHIKORITA
 	winlosstext BurnedTowerSilver_WinText, BurnedTowerSilver_LossText
 	;setlasttalked SLOWPOKE_WELL_B1F_SILVER
-	loadtrainer RIVAL1, RIVAL1_3_FLAMBEAR
+	loadtrainer RIVAL1, RIVAL1_3_CUBBURN
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle

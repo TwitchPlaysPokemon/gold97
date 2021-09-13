@@ -52,10 +52,10 @@ N64HouseScientistScript:
 	iftrue .AlreadyGotStarter3
 	writetext N64HouseScientistText5
 	waitbutton
-	checkevent EVENT_GOT_CRUIZE_FROM_ELM
-	iftrue .HaveCruiseGiveFlambear
+	checkevent EVENT_GOT_PALSSIO_FROM_ELM
+	iftrue .HavePalssioGiveCubburn
 	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
-	iftrue .HaveCHIKORITAGiveCruise
+	iftrue .HaveCHIKORITAGivePalssio
 	checkcode VAR_PARTYCOUNT
 	ifequal PARTY_LENGTH, .PartyFullStarter3
 	giveegg CHIKORITA, 5
@@ -67,10 +67,10 @@ N64HouseScientistScript:
 	setevent EVENT_TIN_TOWER_1F_ENTEI
 	end
 	
-.HaveCHIKORITAGiveCruise
+.HaveCHIKORITAGivePalssio
 	checkcode VAR_PARTYCOUNT
 	ifequal PARTY_LENGTH, .PartyFullStarter3
-	giveegg CRUIZE, 5
+	giveegg PALSSIO, 5
 	stringtotext .eggname3, MEM_BUFFER_1
 	scall .GetStarter3Egg
 	writetext TakeGoodCareOfStarter3
@@ -79,10 +79,10 @@ N64HouseScientistScript:
 	setevent EVENT_TIN_TOWER_1F_ENTEI
 	end
 	
-.HaveCruiseGiveFlambear
+.HavePalssioGiveCubburn
 	checkcode VAR_PARTYCOUNT
 	ifequal PARTY_LENGTH, .PartyFullStarter3
-	giveegg FLAMBEAR, 5
+	giveegg CUBBURN, 5
 	stringtotext .eggname3, MEM_BUFFER_1
 	scall .GetStarter3Egg
 	writetext TakeGoodCareOfStarter3

@@ -19,19 +19,19 @@ RivalBattleFinal:
 	writetext UndergroundSilverBeforeText
 	waitbutton
 	closetext
-	checkevent EVENT_GOT_CRUIZE_FROM_ELM
-	iftrue .cruise
+	checkevent EVENT_GOT_PALSSIO_FROM_ELM
+	iftrue .palssio
 	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
 	iftrue .CHIKORITA
 	winlosstext UndergroundSilverWinText, UndergroundSilverLossText
 	;setlasttalked SLOWPOKE_WELL_B1F_SILVER
-	loadtrainer RIVAL1, RIVAL1_5_CRUIZE
+	loadtrainer RIVAL1, RIVAL1_5_PALSSIO
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
 	jump .returnfrombattle
 
-.cruise
+.palssio
 	winlosstext UndergroundSilverWinText, UndergroundSilverLossText
 	;setlasttalked SLOWPOKE_WELL_B1F_SILVER
 	loadtrainer RIVAL1, RIVAL1_5_CHIKORITA
@@ -43,7 +43,7 @@ RivalBattleFinal:
 .CHIKORITA
 	winlosstext UndergroundSilverWinText, UndergroundSilverLossText
 	;setlasttalked SLOWPOKE_WELL_B1F_SILVER
-	loadtrainer RIVAL1, RIVAL1_5_FLAMBEAR
+	loadtrainer RIVAL1, RIVAL1_5_CUBBURN
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle

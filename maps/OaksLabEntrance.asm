@@ -50,12 +50,12 @@ BattleScript:
 	writetext TimeToBattle
 	waitbutton
 	closetext
-	checkevent EVENT_GOT_CRUIZE_FROM_ELM
-	iftrue .Cruise
+	checkevent EVENT_GOT_PALSSIO_FROM_ELM
+	iftrue .Palssio
 	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
 	iftrue .CHIKORITA
 	winlosstext SilverEntranceWinText, SilverEntranceLossText
-	loadtrainer RIVAL1, RIVAL1_1_CRUIZE
+	loadtrainer RIVAL1, RIVAL1_1_PALSSIO
 	writecode VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 	startbattle
 	dontrestartmapmusic
@@ -63,7 +63,7 @@ BattleScript:
 	iftrue .AfterVictorious
 	jump .AfterYourDefeat
 
-.Cruise:
+.Palssio:
 	winlosstext SilverEntranceWinText, SilverEntranceLossText
 	loadtrainer RIVAL1, RIVAL1_1_CHIKORITA
 	writecode VAR_BATTLETYPE, BATTLETYPE_CANLOSE
@@ -75,7 +75,7 @@ BattleScript:
 
 .CHIKORITA:
 	winlosstext SilverEntranceWinText, SilverEntranceLossText
-	loadtrainer RIVAL1, RIVAL1_1_FLAMBEAR
+	loadtrainer RIVAL1, RIVAL1_1_CUBBURN
 	writecode VAR_BATTLETYPE, BATTLETYPE_CANLOSE
 	startbattle
 	dontrestartmapmusic

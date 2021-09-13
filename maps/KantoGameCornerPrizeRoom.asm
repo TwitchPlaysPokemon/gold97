@@ -132,7 +132,7 @@ CeladonPrizeRoomPokemonVendor:
 	closewindow
 	ifequal 1, .pikachu
 	ifequal 2, .porygon
-	ifequal 3, .wolfan
+	ifequal 3, .warfurs
 	jump CeladonPrizeRoom_cancel
 
 .pikachu
@@ -171,21 +171,21 @@ CeladonPrizeRoomPokemonVendor:
 	takecoins 5555
 	jump .loop
 
-.wolfan
+.warfurs
 	checkcoins 8888
 	ifequal HAVE_LESS, CeladonPrizeRoom_notenoughcoins
 	checkcode VAR_PARTYCOUNT
 	ifequal PARTY_LENGTH, CeladonPrizeRoom_notenoughroom
-	pokenamemem WOLFAN, MEM_BUFFER_0
+	pokenamemem WARFURS, MEM_BUFFER_0
 	scall CeladonPrizeRoom_askbuy
 	iffalse CeladonPrizeRoom_cancel
 	waitsfx
 	playsound SFX_TRANSACTION
 	writetext CeladonPrizeRoom_HereYouGoText
 	waitbutton
-	writebyte WOLFAN
+	writebyte WARFURS
 	special GameCornerPrizeMonCheckDex
-	givepoke WOLFAN, 40
+	givepoke WARFURS, 40
 	takecoins 8888
 	jump .loop
 
@@ -200,7 +200,7 @@ CeladonPrizeRoomPokemonVendor:
 	db 4 ; items
 	db "PIKACHU    2222@"
 	db "PORYGON    5555@"
-	db "WOLFMAN    8888@"
+	db "WARFURS    8888@"
 	db "CANCEL@"
 	
 DummyVendorScript:

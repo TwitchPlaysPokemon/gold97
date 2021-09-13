@@ -182,7 +182,7 @@ NationalParkYoungster1Text:
 
 NationalParkYoungster2Text:
 	text "I get the other"
-	line "guy's BOMSHEAL"
+	line "guy's GRENMAR"
 	cont "sticker if I win."
 	done
 

@@ -74,18 +74,18 @@ Route36GateRivalScript:
 	closetext
 	applymovement ROUTE36RUINSOFALPHGATE_RIVAL, SilverChecksGuard2
 	pause 5
-	checkevent EVENT_GOT_CRUIZE_FROM_ELM
-	iftrue .R36GCruise
+	checkevent EVENT_GOT_PALSSIO_FROM_ELM
+	iftrue .R36GPalssio
 	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
 	iftrue .R36GCHIKORITA
 	winlosstext Route36GSilverWinText, Route36GSilverLossText
-	loadtrainer RIVAL1, RIVAL1_4_CRUIZE
+	loadtrainer RIVAL1, RIVAL1_4_PALSSIO
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
 	jump .R36GAfterBattle
 
-.R36GCruise:
+.R36GPalssio:
 	winlosstext Route36GSilverWinText, Route36GSilverLossText
 	loadtrainer RIVAL1, RIVAL1_4_CHIKORITA
 	startbattle
@@ -95,7 +95,7 @@ Route36GateRivalScript:
 
 .R36GCHIKORITA:
 	winlosstext Route36GSilverWinText, Route36GSilverLossText
-	loadtrainer RIVAL1, RIVAL1_4_FLAMBEAR
+	loadtrainer RIVAL1, RIVAL1_4_CUBBURN
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
