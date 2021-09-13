@@ -155,20 +155,20 @@ MonMenuIcons:
 	db ICON_ODDISH      ; CHIKORITA
 	db ICON_ODDISH      ; BLOSSOMOLE
 	db ICON_ODDISH      ; BLOSSOMITE
+	db ICON_MONSTER     ; CUBBURN
 	db ICON_MONSTER     ; FLAMBEAR
-	db ICON_MONSTER     ; VOLBEAR
-	db ICON_MONSTER     ; DYNABEAR
-	db ICON_LAPRAS      ; CRUIZE
-	db ICON_LAPRAS      ; AQUALLO
-	db ICON_LAPRAS      ; AQUARIUS
-	db ICON_ODDISH      ; TANG
-	db ICON_ODDISH      ; TANGROWTH
+	db ICON_MONSTER     ; BRUINUS
+	db ICON_LAPRAS      ; PALSSIO
+	db ICON_LAPRAS      ; PRESSIO
+	db ICON_LAPRAS      ; DONMARIN
+	db ICON_ODDISH      ; BURGELA
+	db ICON_ODDISH      ; JUNGELA
 	db ICON_BIRD        ; HOOTHOOT
 	db ICON_BIRD        ; NOCTOWL
 	db ICON_BUG         ; LEDYBA
-	db ICON_BUG         ; TRIPSTAR
+	db ICON_BUG         ; LEDIAN
 	db ICON_BUG         ; SPINARAK
-	db ICON_BUG         ; TUHEAD
+	db ICON_BUG         ; ARIADOS
 	db ICON_BAT         ; CROBAT
 	db ICON_FOX         ; KOTORA
 	db ICON_FOX         ; RAITORA
@@ -176,7 +176,7 @@ MonMenuIcons:
 	db ICON_CLEFAIRY    ; CLEFFA
 	db ICON_JIGGLYPUFF  ; IGGLYBUFF
 	db ICON_CLEFAIRY    ; TOGEPI
-	db ICON_EQUINE      ; PETICORN
+	db ICON_EQUINE      ; KOLTA
 	db ICON_BIRD        ; NATU
 	db ICON_BIRD        ; XATU
 	db ICON_FOX         ; MAREEP
@@ -184,45 +184,45 @@ MonMenuIcons:
 	db ICON_MONSTER     ; AMPHAROS
 	db ICON_ODDISH      ; BELLOSSOM
 	db ICON_CLEFAIRY    ; MARILL
-	db ICON_LAPRAS      ; BOMSHEAL
-	db ICON_ODDISH      ; BELMITT
+	db ICON_LAPRAS      ; GRENMAR
+	db ICON_ODDISH      ; BELLIGNAN
 	db ICON_POLIWAG     ; POLITOED
 	db ICON_ODDISH      ; HOPPIP
 	db ICON_ODDISH      ; SKIPLOOM
 	db ICON_ODDISH      ; JUMPLUFF
 	db ICON_MONSTER     ; AIPOM
-	db ICON_FISH        ; GUPGOLD
+	db ICON_FISH        ; ORFRY
 	db ICON_ODDISH      ; SUNFLORA
-	db ICON_FISH        ; CORASUN
-	db ICON_FISH        ; ANCHORAGE
-	db ICON_SERPENT     ; GROTESS
+	db ICON_FISH        ; MOLAMBINO
+	db ICON_FISH        ; ANGORE
+	db ICON_SERPENT     ; LUREEL
 	db ICON_FOX         ; ESPEON
 	db ICON_FOX         ; UMBREON
 	db ICON_BIRD        ; MURKROW
 	db ICON_SLOWPOKE    ; SLOWKING
-	db ICON_FOX         ; TRITALES
+	db ICON_FOX         ; VULPIII
 	db ICON_UNOWN       ; UNOWN
-	db ICON_GHOST       ; TWINZ
+	db ICON_GHOST       ; BIPULLA
 	db ICON_EQUINE      ; GIRAFARIG
-	db ICON_SHELL       ; TURBAN
-	db ICON_BLOB        ; GRIMBY
-	db ICON_BUG         ; PARAMITE
-	db ICON_BLOB        ; METTO
+	db ICON_SHELL       ; DISTURBAN
+	db ICON_BLOB        ; SMUJJ
+	db ICON_BUG         ; PARASPOR
+	db ICON_BLOB        ; MIMMEO
 	db ICON_SERPENT     ; STEELIX
 	db ICON_MONSTER     ; SNUBBULL
 	db ICON_FISH        ; QUAGSIRE
 	db ICON_BUG         ; PRAXE
 	db ICON_BUG         ; SCIZOR
-	db ICON_FOX         ; RINRING
-	db ICON_FOX         ; BELLRUN
+	db ICON_FOX         ; MOIBELLE
+	db ICON_FOX         ; BELLEDAM
 	db ICON_FOX         ; SNEASEL
 	db ICON_FISH        ; QWILFISH
-	db ICON_FISH        ; NUMBPUFF
-	db ICON_FOX         ; NYANYA
+	db ICON_FISH        ; KAZAPPELIN
+	db ICON_FOX         ; COINPUR
 	db ICON_BIRD        ; MADAME
-	db ICON_GHOST       ; KURSTRAW
-	db ICON_GHOST       ; PANGSHI
-	db ICON_FOX         ; PUDDIPUP
+	db ICON_GHOST       ; STROMEN
+	db ICON_GHOST       ; PHANDARIN
+	db ICON_FOX         ; PUPPERON
 	db ICON_FISH        ; REMORAID
 	db ICON_FISH        ; OCTILLERY
 	db ICON_BIRD        ; DELIBIRD
@@ -234,20 +234,20 @@ MonMenuIcons:
 	db ICON_EQUINE      ; PHANPY
 	db ICON_EQUINE      ; DONPHAN
 	db ICON_VOLTORB     ; PORYGON2
-	db ICON_HUMANSHAPE  ; MIMEJR
+	db ICON_HUMANSHAPE  ; BARIRINA
 	db ICON_MONSTER     ; SMEARGLE
 	db ICON_FIGHTER     ; TYROGUE
 	db ICON_FIGHTER     ; HITMONTOP
 	db ICON_HUMANSHAPE  ; SMOOCHUM
-	db ICON_HUMANSHAPE  ; ELEBABE
+	db ICON_HUMANSHAPE  ; ELEKID
 	db ICON_HUMANSHAPE  ; MAGBY
-	db ICON_BIRD        ; CHIX actually chix
-	db ICON_EQUINE      ; MILTANK actually chix
+	db ICON_BIRD        ; DODAERIE actually dodaerie
+	db ICON_EQUINE      ; MILTANK actually dodaerie
 	db ICON_FOX         ; RAIKOU
 	db ICON_FOX         ; ENTEI
 	db ICON_FOX         ; SUICUNE
-	db ICON_MONSTER     ; WOLFAN
-	db ICON_MONSTER     ; WARWOLF
+	db ICON_MONSTER     ; WARFURS
+	db ICON_MONSTER     ; WEARLYCAN
 	db ICON_MONSTER     ; LICKILORD
 	db ICON_CLEFAIRY    ; BLISSEY actually miltank
 	db ICON_LUGIA       ; LUGIA

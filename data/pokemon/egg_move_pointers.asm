@@ -157,13 +157,13 @@ endc
 	dw CHIKORITAEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw FlambearEggMoves
+	dw CubburnEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw CruiseEggMoves
+	dw PalssioEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw TangEggMoves
+	dw BurgelaEggMoves
 	dw NoEggMoves
 	dw HoothootEggMoves
 	dw NoEggMoves
@@ -178,7 +178,7 @@ endc
 	dw CleffaEggMoves
 	dw IgglybuffEggMoves
 	dw TogepiEggMoves
-	dw PonittleEggMoves
+	dw KoltaEggMoves
 	dw NatuEggMoves
 	dw NoEggMoves
 	dw MareepEggMoves
@@ -186,45 +186,45 @@ endc
 	dw NoEggMoves
 	dw NoEggMoves
 	dw MarillEggMoves
-	dw BomsealEggMoves
-	dw BipetalEggMoves
+	dw GrenmarEggMoves
+	dw BellignanEggMoves
 	dw NoEggMoves
 	dw HoppipEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw AipomEggMoves
-	dw KingoldEggMoves
+	dw OrfryEggMoves
 	dw NoEggMoves
-	dw OsunfishEggMoves
+	dw MolambinoEggMoves
 	dw NoEggMoves
-	dw GrotessEggMoves
+	dw LureelEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw MurkrowEggMoves
 	dw NoEggMoves
-	dw TritalesEggMoves
+	dw VulpiiiEggMoves
 	dw NoEggMoves
-	dw TwinborusEggMoves
+	dw BipullaEggMoves
 	dw NoEggMoves
-	dw TurbanEggMoves
-	dw GrimbyEggMoves
-	dw ParaEggMoves
+	dw DisturbanEggMoves
+	dw SmujjEggMoves
+	dw ParasporEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw SnubbullEggMoves
 	dw QuagsireEggMoves
-	dw PluckrossEggMoves
+	dw HeracrossEggMoves
 	dw NoEggMoves
-	dw RinringEggMoves
+	dw MoibelleEggMoves
 	dw NoEggMoves
 	dw SneaselEggMoves
 	dw QwilfishEggMoves
 	dw NoEggMoves
-	dw MeowsyEggMoves
+	dw CoinpurEggMoves
 	dw NoEggMoves
-	dw CurstrawEggMoves
+	dw StromenEggMoves
 	dw NoEggMoves
-	dw GrowliteEggMoves
+	dw PupperonEggMoves
 	dw RemoraidEggMoves
 	dw NoEggMoves
 	dw DelibirdEggMoves
@@ -236,19 +236,19 @@ endc
 	dw PhanpyEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw MimeJrEggMoves
+	dw BaririnaEggMoves
 	dw NoEggMoves
 	dw TyrogueEggMoves
 	dw NoEggMoves
 	dw SmoochumEggMoves
 	dw ElekidEggMoves
 	dw MagbyEggMoves
-	dw ChixEggMoves
+	dw DodaerieEggMoves
 	dw MiltankEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw WolfanEggMoves
+	dw WarfursEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
