@@ -179,7 +179,7 @@ OakPhoneDisasterText:
 	line "place to study the"
 	cont "odd relationship"
 	cont "between SLOWPOKE"
-	cont "and TURBAN."
+	cont "and DISTURBAN."
 	
 	para "<RIVAL>, BLUE,"
 	line "and myself are"

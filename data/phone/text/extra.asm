@@ -385,7 +385,7 @@ UnknownText_0x64c5a:
 	line "coming or what?"
 
 	para "You're missing out"
-	line "on seeing CORASUN!"
+	line "on seeing MOLAMBINO!"
 
 	para "Get down to ROUTE"
 	line "35 right now!"

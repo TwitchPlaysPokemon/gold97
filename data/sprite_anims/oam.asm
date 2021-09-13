@@ -29,8 +29,8 @@ SpriteAnimOAMData:
 	dbw $01, .OAMData_TradePoofBubble          ; SPRITE_ANIM_OAMSET_GS_INTRO_MED_FIREBALL
 	dbw $09, .OAMData_GSIntroBigFireball       ; SPRITE_ANIM_OAMSET_GS_INTRO_BIG_FIREBALL
 	dbw $10, .OAMData_GSIntroStarter           ; SPRITE_ANIM_OAMSET_GS_INTRO_CHIKORITA
-	dbw $29, .OAMData_GSIntroStarter           ; SPRITE_ANIM_OAMSET_GS_INTRO_FLAMBEAR
-	dbw $42, .OAMData_GSIntroStarter           ; SPRITE_ANIM_OAMSET_GS_INTRO_CRUIZE
+	dbw $29, .OAMData_GSIntroStarter           ; SPRITE_ANIM_OAMSET_GS_INTRO_CUBBURN
+	dbw $42, .OAMData_GSIntroStarter           ; SPRITE_ANIM_OAMSET_GS_INTRO_PALSSIO
 	dbw $f8, .OAMData_GSTitleTrail             ; SPRITE_ANIM_OAMSET_GS_TITLE_TRAIL_1
 	dbw $fa, .OAMData_GSTitleTrail             ; SPRITE_ANIM_OAMSET_GS_TITLE_TRAIL_2
 	dbw $00, .OAMData_TextEntryCursor          ; SPRITE_ANIM_OAMSET_TEXT_ENTRY_CURSOR
@@ -118,7 +118,7 @@ SpriteAnimOAMData:
 	dbw $00, .OAMData_IntroPichu               ; SPRITE_ANIM_OAMSET_INTRO_PICHU_1
 	dbw $05, .OAMData_IntroPichu               ; SPRITE_ANIM_OAMSET_INTRO_PICHU_2
 	dbw $0a, .OAMData_IntroPichu               ; SPRITE_ANIM_OAMSET_INTRO_PICHU_3
-	dbw $50, .OAMData_IntroAnchorage              ; SPRITE_ANIM_OAMSET_INTRO_ANCHORAGE
+	dbw $50, .OAMData_IntroAngore              ; SPRITE_ANIM_OAMSET_INTRO_ANGORE
 	dbw $00, .OAMData_IntroUnown1              ; SPRITE_ANIM_OAMSET_INTRO_UNOWN_1
 	dbw $01, .OAMData_IntroUnown2              ; SPRITE_ANIM_OAMSET_INTRO_UNOWN_2
 	dbw $04, .OAMData_IntroUnown3              ; SPRITE_ANIM_OAMSET_INTRO_UNOWN_3
@@ -1031,7 +1031,7 @@ SpriteAnimOAMData:
 	dsprite  1,  4,  0,  4, $43, 1 | VRAM_BANK_1
 	dsprite  1,  4,  1,  4, $44, 1 | VRAM_BANK_1
 
-.OAMData_IntroAnchorage:
+.OAMData_IntroAngore:
 	db 16
 	dsprite -2,  0, -3,  4, $00, 2 | VRAM_BANK_1
 	dsprite -2,  0, -2,  4, $01, 2 | VRAM_BANK_1
