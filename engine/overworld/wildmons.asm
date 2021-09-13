@@ -417,28 +417,28 @@ _SwarmWildmonCheck:
 	ld hl, wSwarmFlags
 	bit SWARMFLAGS_EEVEE_SWARM_F, [hl]
 	pop hl
-	jr z, .CheckOsunfish
+	jr z, .CheckMolambino
 	ld a, [wEeveeMapGroup]
 	cp d
-	jr nz, .CheckOsunfish
+	jr nz, .CheckMolambino
 	ld a, [wEeveeMapNumber]
 	cp e
-	jr nz, .CheckOsunfish
+	jr nz, .CheckMolambino
 	call LookUpWildmonsForMapDE
 	jr nc, _NoSwarmWildmon
 	scf
 	ret
 
-.CheckOsunfish:
+.CheckMolambino:
 	push hl
 	ld hl, wSwarmFlags
-	bit SWARMFLAGS_CORASUN_SWARM_F, [hl]
+	bit SWARMFLAGS_MOLAMBINO_SWARM_F, [hl]
 	pop hl
 	jr z, _NoSwarmWildmon
-	ld a, [wOsunfishMapGroup]
+	ld a, [wMolambinoMapGroup]
 	cp d
 	jr nz, _NoSwarmWildmon
-	ld a, [wOsunfishMapNumber]
+	ld a, [wMolambinoMapNumber]
 	cp e
 	jr nz, _NoSwarmWildmon
 	call LookUpWildmonsForMapDE
