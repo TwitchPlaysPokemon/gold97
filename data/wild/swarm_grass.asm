@@ -30,30 +30,30 @@ SwarmGrassWildMons:
 	db 14, PIKACHU
 	db 15, PIKACHU
 
-; Osunfish swarm
+; Molambino swarm
 	map_id ROUTE_103
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 12, NIDORAN_M
 	db 12, NIDORAN_F
-	db 12, CORASUN
-	db 14, CORASUN
+	db 12, MOLAMBINO
+	db 14, MOLAMBINO
 	db 14, PIDGEY
 	db 10, DITTO
 	db 10, DITTO
 	; day
 	db 12, NIDORAN_M
 	db 12, NIDORAN_F
-	db 12, CORASUN
-	db 14, CORASUN
+	db 12, MOLAMBINO
+	db 14, MOLAMBINO
 	db 14, PIDGEY
 	db 10, DITTO
 	db 10, DITTO
 	; nite
 	db 12, NIDORAN_M
 	db 12, NIDORAN_F
-	db 12, CORASUN
-	db 14, CORASUN
+	db 12, MOLAMBINO
+	db 14, MOLAMBINO
 	db 14, HOOTHOOT
 	db 10, DITTO
 	db 10, DITTO

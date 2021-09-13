@@ -198,4 +198,4 @@ EngineFlags:
 	engine_flag wPlayerSpriteSetupFlags, PLAYERSPRITESETUP_FEMALE_TO_MALE_F
 
 	engine_flag wSwarmFlags, SWARMFLAGS_EEVEE_SWARM_F ; $a0
-	engine_flag wSwarmFlags, SWARMFLAGS_CORASUN_SWARM_F
+	engine_flag wSwarmFlags, SWARMFLAGS_MOLAMBINO_SWARM_F
