@@ -2785,8 +2785,8 @@ wDailyRematchFlags:: ds 4
 wDailyPhoneItemFlags:: ds 4
 wDailyPhoneTimeOfDayFlags:: ds 4
 wKenjiBreakTimer:: ds 2 ; Kenji
-wOsunfishMapGroup:: db ; dc5a
-wOsunfishMapNumber:: db
+wMolambinoMapGroup:: db ; dc5a
+wMolambinoMapNumber:: db
 wPlayerMonSelection:: ds 3
 wdc5f:: ds 1
 wdc60:: ds 19
