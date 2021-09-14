@@ -70,5 +70,5 @@
 	const CRY_MADAME
 	const CRY_PICHU
 	const CRY_AIPOM
-	const CRY_PARA
+	const CRY_PARASPOR
 	const CRY_DONPHAN

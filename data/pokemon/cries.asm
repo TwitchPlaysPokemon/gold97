@@ -213,7 +213,7 @@ PokemonCries::
 	mon_cry CRY_PARAS,       $0c4,  $0b0 ; PARASPOR
 	mon_cry CRY_PIDGEY,      $162,  $120 ; MIMMEO
 	mon_cry CRY_BRUINUS,    $0ef,  $0f7 ; STEELIX
-	mon_cry CRY_PARA,        $112,  $0e8 ; SNUBBULL
+	mon_cry CRY_PARASPOR,        $112,  $0e8 ; SNUBBULL
 	mon_cry CRY_ANGORE,  -$0c6,  $140 ; QUAGSIRE
 	mon_cry CRY_RAICHU,      $123,  $100 ; HERACROSS
 	mon_cry CRY_AMPHAROS,    $000,  $160 ; SCIZOR
