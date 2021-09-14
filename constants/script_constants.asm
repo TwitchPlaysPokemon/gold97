@@ -223,7 +223,7 @@ NUM_FRUIT_TREES EQU const_value + -1
 ; StoreSwarmMapIndices arguments
 	const_def
 	const SWARM_EEVEE ; 0
-	const SWARM_CORASUN     ; 1
+	const SWARM_MOLAMBINO     ; 1
 
 ; ActivateFishingSwarm writebyte arguments
 	const_def
@@ -244,7 +244,7 @@ NUM_FRUIT_TREES EQU const_value + -1
 	const MAGIKARPLENGTH_TOO_SHORT    ; 2
 	const MAGIKARPLENGTH_BEAT_RECORD  ; 3
 
-; SpecialReturnRinring return values
+; SpecialReturnMoibelle return values
 	const_def
 	const SHUCKIE_WRONG_MON ; 0
 	const SHUCKIE_REFUSED   ; 1
