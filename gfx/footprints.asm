@@ -465,7 +465,7 @@ INCBIN "gfx/footprints/bipulla.1bpp",  footprint_top
 INCBIN "gfx/footprints/girafarig.1bpp",  footprint_top
 INCBIN "gfx/footprints/disturban.1bpp",     footprint_top
 INCBIN "gfx/footprints/smujj.1bpp", footprint_top
-INCBIN "gfx/footprints/para.1bpp",  footprint_top
+INCBIN "gfx/footprints/paraspor.1bpp",  footprint_top
 INCBIN "gfx/footprints/mimmeo.1bpp",     footprint_top
 INCBIN "gfx/footprints/steelix.1bpp",    footprint_top
 ; 201-208 bottom halves
@@ -474,7 +474,7 @@ INCBIN "gfx/footprints/bipulla.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/girafarig.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/disturban.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/smujj.1bpp", footprint_bottom
-INCBIN "gfx/footprints/para.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/paraspor.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/mimmeo.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/steelix.1bpp",    footprint_bottom
 ; 209-216 top halves
