@@ -50,7 +50,7 @@
 	const CRY_MAREEP
 	const CRY_KOLTA
 	const CRY_HOOTHOOT
-	const CRY_TANG
+	const CRY_BURGELA
 	const CRY_SLOWKING
 	const CRY_CUBBURN
 	const CRY_CHIKORITA
