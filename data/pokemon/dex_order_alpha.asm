@@ -79,7 +79,7 @@ AlphabeticalPokedexOrder:
 	db GRAVELER
 	db SMUJJ
 	db GRIMER
-	db LUREEL
+	db LURREEL
 	db GROWLITHE
 	db ORFRY
 	db GYARADOS

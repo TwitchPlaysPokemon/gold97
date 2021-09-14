@@ -233,7 +233,7 @@ Pokered_MonIndices:
 	db SUNFLORA
 	db MOLAMBINO
 	db ANGORE
-	db LUREEL
+	db LURREEL
 	db ESPEON
 	db UMBREON
 	db MURKROW

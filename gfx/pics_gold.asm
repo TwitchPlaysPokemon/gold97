@@ -209,7 +209,7 @@ IvysaurFrontpic:     INCBIN "gfx/pokemon/ivysaur/front.animated.2bpp.lz"
 JungelaFrontpic:      INCBIN "gfx/pokemon/jungela/front.animated.2bpp.lz"
 CubburnFrontpic:   INCBIN "gfx/pokemon/cubburn/front.animated.2bpp.lz"
 HitmonchanFrontpic:  INCBIN "gfx/pokemon/hitmonchan/front.animated.2bpp.lz"
-LureelFrontpic:    INCBIN "gfx/pokemon/lureel/front.animated.2bpp.lz"
+LurreelFrontpic:    INCBIN "gfx/pokemon/lurreel/front.animated.2bpp.lz"
 
 
 SECTION "Pics 9", ROMX
@@ -545,7 +545,7 @@ JasminePic:          INCBIN "gfx/trainers/jasmine.2bpp.lz"
 DisturbanBackpic:       INCBIN "gfx/pokemon/disturban/back.2bpp.lz"
 MetapodFrontpic:     INCBIN "gfx/pokemon/metapod/front.animated.2bpp.lz"
 SeelBackpic:         INCBIN "gfx/pokemon/seel/back.2bpp.lz"
-LureelBackpic:     INCBIN "gfx/pokemon/lureel/back.2bpp.lz"
+LurreelBackpic:     INCBIN "gfx/pokemon/lurreel/back.2bpp.lz"
 WhitneyPic:          INCBIN "gfx/trainers/whitney.2bpp.lz"
 JolteonBackpic:      INCBIN "gfx/pokemon/jolteon/back.2bpp.lz"
 CaterpieFrontpic:    INCBIN "gfx/pokemon/caterpie/front.animated.2bpp.lz"

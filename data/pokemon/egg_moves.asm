@@ -597,7 +597,7 @@ MolambinoEggMoves:
 	db SWAGGER
 	db -1 ; end
 
-LureelEggMoves:
+LurreelEggMoves:
 	db BODY_SLAM
 	db ANCIENTPOWER
 	db SAFEGUARD

@@ -444,7 +444,7 @@ INCBIN "gfx/footprints/sunflora.1bpp",   footprint_bottom
 ; 193-200 top halves
 INCBIN "gfx/footprints/molambino.1bpp",      footprint_top
 INCBIN "gfx/footprints/angore.1bpp",     footprint_top
-INCBIN "gfx/footprints/lureel.1bpp",   footprint_top
+INCBIN "gfx/footprints/lurreel.1bpp",   footprint_top
 INCBIN "gfx/footprints/espeon.1bpp",     footprint_top
 INCBIN "gfx/footprints/umbreon.1bpp",    footprint_top
 INCBIN "gfx/footprints/murkrow.1bpp",    footprint_top
@@ -453,7 +453,7 @@ INCBIN "gfx/footprints/vulpiii.1bpp", footprint_top
 ; 193-200 bottom halves
 INCBIN "gfx/footprints/molambino.1bpp",      footprint_bottom
 INCBIN "gfx/footprints/angore.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/lureel.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/lurreel.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/espeon.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/umbreon.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/murkrow.1bpp",    footprint_bottom

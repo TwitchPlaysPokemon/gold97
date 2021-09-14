@@ -195,7 +195,7 @@ MonMenuIcons:
 	db ICON_ODDISH      ; SUNFLORA
 	db ICON_FISH        ; MOLAMBINO
 	db ICON_FISH        ; ANGORE
-	db ICON_SERPENT     ; LUREEL
+	db ICON_SERPENT     ; LURREEL
 	db ICON_FOX         ; ESPEON
 	db ICON_FOX         ; UMBREON
 	db ICON_BIRD        ; MURKROW

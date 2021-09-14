@@ -199,7 +199,7 @@ PokemonCries::
 	mon_cry CRY_SUNFLORA,   -$020,  $180 ; SUNFLORA
 	mon_cry CRY_QWILFISH,    $043,  $050 ; MOLAMBINO
 	mon_cry CRY_MADAME,      $8f0,  $100 ; ANGORE
-	mon_cry CRY_PALSSIO,     -$051,  $0e8 ; LUREEL
+	mon_cry CRY_PALSSIO,     -$051,  $0e8 ; LURREEL
 	mon_cry CRY_AIPOM,       $0a2,  $140 ; ESPEON
 	mon_cry CRY_VENONAT,    -$0e9,  $0f0 ; UMBREON
 	mon_cry CRY_MARILL,     -$01f,  $180 ; MURKROW

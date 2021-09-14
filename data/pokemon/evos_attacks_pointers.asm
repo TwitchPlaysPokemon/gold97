@@ -195,7 +195,7 @@ EvosAttacksPointers::
 	dw SunfloraEvosAttacks
 	dw MolambinoEvosAttacks
 	dw AngoreEvosAttacks
-	dw LureelEvosAttacks
+	dw LurreelEvosAttacks
 	dw EspeonEvosAttacks
 	dw UmbreonEvosAttacks
 	dw MurkrowEvosAttacks

@@ -2879,7 +2879,7 @@ MolambinoEvosAttacks:
 	db 0 ; no more level-up moves
 
 AngoreEvosAttacks:
-	db EVOLVE_LEVEL, 39, LUREEL
+	db EVOLVE_LEVEL, 39, LURREEL
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL
@@ -2896,7 +2896,7 @@ AngoreEvosAttacks:
 	db 50, HYDRO_PUMP
 	db 0 ; no more level-up moves
 
-LureelEvosAttacks:
+LurreelEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 1, GROWL

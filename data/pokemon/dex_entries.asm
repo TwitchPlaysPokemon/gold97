@@ -209,7 +209,7 @@ SECTION "Pokedex Entries 193-251", ROMX
 
 MolambinoPokedexEntry::      INCLUDE "data/pokemon/dex_entries/gold/molambino.asm"
 AngorePokedexEntry::     INCLUDE "data/pokemon/dex_entries/gold/angore.asm"
-LureelPokedexEntry::   INCLUDE "data/pokemon/dex_entries/gold/lureel.asm"
+LurreelPokedexEntry::   INCLUDE "data/pokemon/dex_entries/gold/lurreel.asm"
 EspeonPokedexEntry::     INCLUDE "data/pokemon/dex_entries/gold/espeon.asm"
 UmbreonPokedexEntry::    INCLUDE "data/pokemon/dex_entries/gold/umbreon.asm"
 MurkrowPokedexEntry::    INCLUDE "data/pokemon/dex_entries/gold/murkrow.asm"
@@ -478,7 +478,7 @@ SECTION "Pokedex Entries 193-251", ROMX
 
 MolambinoPokedexEntry::      INCLUDE "data/pokemon/dex_entries/silver/molambino.asm"
 AngorePokedexEntry::     INCLUDE "data/pokemon/dex_entries/silver/angore.asm"
-LureelPokedexEntry::   INCLUDE "data/pokemon/dex_entries/silver/lureel.asm"
+LurreelPokedexEntry::   INCLUDE "data/pokemon/dex_entries/silver/lurreel.asm"
 EspeonPokedexEntry::     INCLUDE "data/pokemon/dex_entries/silver/espeon.asm"
 UmbreonPokedexEntry::    INCLUDE "data/pokemon/dex_entries/silver/umbreon.asm"
 MurkrowPokedexEntry::    INCLUDE "data/pokemon/dex_entries/silver/murkrow.asm"

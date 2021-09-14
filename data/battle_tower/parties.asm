@@ -3616,7 +3616,7 @@ BattleTowerMons7:
 	bigdw 152 ; SDef
 	db "NUO-@@@@@@@"
 
-	db LUREEL ; DONE
+	db LURREEL ; DONE
 	db SCOPE_LENS
 	db SURF, IRON_TAIL, PROTECT, CRUNCH
 	dw 0 ; OT ID

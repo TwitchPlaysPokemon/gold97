@@ -141,7 +141,7 @@ NewPokedexOrder:
 	db PERSIAN
 	db MOLAMBINO
 	db ANGORE
-	db LUREEL
+	db LURREEL
 	db PSYDUCK
 	db GOLDUCK
 	db MACHOP

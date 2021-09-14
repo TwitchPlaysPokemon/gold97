@@ -197,7 +197,7 @@ endc
 	dw NoEggMoves
 	dw MolambinoEggMoves
 	dw NoEggMoves
-	dw LureelEggMoves
+	dw LurreelEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
 	dw MurkrowEggMoves

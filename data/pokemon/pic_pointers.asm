@@ -390,8 +390,8 @@ PokemonPicPointers::
 	dba_pic MolambinoBackpic
 	dba_pic AngoreFrontpic
 	dba_pic AngoreBackpic
-	dba_pic LureelFrontpic
-	dba_pic LureelBackpic
+	dba_pic LurreelFrontpic
+	dba_pic LurreelBackpic
 	dba_pic EspeonFrontpic
 	dba_pic EspeonBackpic
 	dba_pic UmbreonFrontpic

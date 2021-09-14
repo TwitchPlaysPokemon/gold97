@@ -194,7 +194,7 @@ PokedexDataPointerTable:
 	dw SunfloraPokedexEntry
 	dw MolambinoPokedexEntry
 	dw AngorePokedexEntry
-	dw LureelPokedexEntry
+	dw LurreelPokedexEntry
 	dw EspeonPokedexEntry
 	dw UmbreonPokedexEntry
 	dw MurkrowPokedexEntry
