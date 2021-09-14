@@ -425,8 +425,8 @@ PokemonPicPointers::
 	dba_pic SnubbullBackpic
 	dba_pic QuagsireFrontpic
 	dba_pic QuagsireBackpic
-	dba_pic PraxeFrontpic
-	dba_pic PraxeBackpic
+	dba_pic HeracrossFrontpic
+	dba_pic HeracrossBackpic
 	dba_pic ScizorFrontpic
 	dba_pic ScizorBackpic
 	dba_pic MoibelleFrontpic

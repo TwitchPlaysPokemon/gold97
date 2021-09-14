@@ -1866,7 +1866,7 @@ MagmarEvosAttacks:
 	db 0 ; no more level-up moves
 
 PinsirEvosAttacks:
-	db EVOLVE_LEVEL, 42, PRAXE
+	db EVOLVE_LEVEL, 42, HERACROSS
 	db 0 ; no more evolutions
 	db 1, VICEGRIP
 	db 7, FOCUS_ENERGY
@@ -3126,7 +3126,7 @@ QuagsireEvosAttacks:
 	db 47, EARTHQUAKE
 	db 0 ; no more level-up moves
 
-PraxeEvosAttacks:
+HeracrossEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, VICEGRIP
 	db 7, FOCUS_ENERGY

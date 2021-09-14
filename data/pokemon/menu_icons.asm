@@ -211,7 +211,7 @@ MonMenuIcons:
 	db ICON_SERPENT     ; STEELIX
 	db ICON_MONSTER     ; SNUBBULL
 	db ICON_FISH        ; QUAGSIRE
-	db ICON_BUG         ; PRAXE
+	db ICON_BUG         ; HERACROSS
 	db ICON_BUG         ; SCIZOR
 	db ICON_FOX         ; MOIBELLE
 	db ICON_FOX         ; BELLEDAM

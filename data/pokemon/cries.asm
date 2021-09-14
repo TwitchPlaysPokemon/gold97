@@ -215,7 +215,7 @@ PokemonCries::
 	mon_cry CRY_BRUINUS,    $0ef,  $0f7 ; STEELIX
 	mon_cry CRY_PARA,        $112,  $0e8 ; SNUBBULL
 	mon_cry CRY_ANGORE,  -$0c6,  $140 ; QUAGSIRE
-	mon_cry CRY_RAICHU,      $123,  $100 ; PRAXE
+	mon_cry CRY_RAICHU,      $123,  $100 ; HERACROSS
 	mon_cry CRY_AMPHAROS,    $000,  $160 ; SCIZOR
 	mon_cry CRY_MIMMEO,       $040,  $100 ; MOIBELLE
 	mon_cry CRY_MIMMEO,       $020,  $300 ; BELLEDAM

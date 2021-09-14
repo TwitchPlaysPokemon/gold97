@@ -2622,7 +2622,7 @@ BattleTowerMons5:
 	bigdw 113 ; SDef
 	db "EA-MUDO@@@@"
 
-	db PRAXE ; DONE
+	db HERACROSS ; DONE
 	db SILVERPOWDER
 	db MEGAHORN, EARTHQUAKE, SWORDS_DANCE, SWAGGER
 	dw 0 ; OT ID

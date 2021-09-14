@@ -211,7 +211,7 @@ EvosAttacksPointers::
 	dw SteelixEvosAttacks
 	dw SnubbullEvosAttacks
 	dw QuagsireEvosAttacks
-	dw PraxeEvosAttacks
+	dw HeracrossEvosAttacks
 	dw ScizorEvosAttacks
 	dw MoibelleEvosAttacks
 	dw BelledamEvosAttacks

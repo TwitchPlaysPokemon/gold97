@@ -209,7 +209,7 @@ PokemonNames::
 	db "STEELIX@@@"
 	db "SNUBBULL@@"
 	db "QUAGSIRE@@"
-	db "PRAXE@@@@@"
+	db "HERACROSS@@@@@"
 	db "SCIZOR@@@@"
 	db "MOIBELLE@@@"
 	db "BELLEDAM@@@"

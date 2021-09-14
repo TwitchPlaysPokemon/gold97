@@ -110,7 +110,7 @@ NewPokedexOrder:
 	db SCYTHER
 	db SCIZOR
 	db PINSIR
-	db PRAXE
+	db HERACROSS
 	db KOFFING
 	db WEEZING
 	db SMUJJ

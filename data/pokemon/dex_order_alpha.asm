@@ -179,7 +179,7 @@ AlphabeticalPokedexOrder:
 	db PONYTA
 	db PORYGON
 	db PORYGON2
-	db PRAXE
+	db HERACROSS
 	db PRIMEAPE
 	db PSYDUCK
 	db PUPPERON
