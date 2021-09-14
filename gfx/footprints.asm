@@ -352,7 +352,7 @@ INCBIN "gfx/footprints/mewtwo.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/mew.1bpp",        footprint_bottom
 INCBIN "gfx/footprints/chikorita.1bpp",  footprint_bottom
 ; 153-160 top halves
-INCBIN "gfx/footprints/budleef.1bpp",    footprint_top
+INCBIN "gfx/footprints/petamole.1bpp",    footprint_top
 INCBIN "gfx/footprints/meganium.1bpp",   footprint_top
 INCBIN "gfx/footprints/cubburn.1bpp",  footprint_top
 INCBIN "gfx/footprints/flambear.1bpp",    footprint_top
@@ -361,7 +361,7 @@ INCBIN "gfx/footprints/palssio.1bpp",   footprint_top
 INCBIN "gfx/footprints/pressio.1bpp",   footprint_top
 INCBIN "gfx/footprints/donmarin.1bpp", footprint_top
 ; 153-160 bottom halves
-INCBIN "gfx/footprints/budleef.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/petamole.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/meganium.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/cubburn.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/flambear.1bpp",    footprint_bottom
