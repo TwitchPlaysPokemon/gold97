@@ -1,10 +1,10 @@
-	db "TOUGH FISH@" ; species name
-	dw 305, 270 ; height, weight
+	db "TRIBE@" ; species name
+	dw 504, 2230 ; height, weight
 
-	db   "Its skin is very"
-	next "scaly and tough."
-	next "This #MON is"
+	db   "Its fur isn't"
+	next "warmed by its"
+	next "body heat, as it"
 
-	page "most often found"
-	next "in open waters and"
-	next "deep in the sea.@"
+	page "stays as cold as"
+	next "the environment it"
+	next "lives in.@"

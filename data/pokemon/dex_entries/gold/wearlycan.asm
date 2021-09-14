@@ -1,10 +1,10 @@
-	db "TOUGH FISH@" ; species name
-	dw 305, 270 ; height, weight
+	db "TRIBE@" ; species name
+	dw 504, 2230 ; height, weight
 
-	db   "Its tough hide is"
-	next "a cover for its"
-	next "general lack of"
+	db   "They hunt in a"
+	next "tribe, hiding in"
+	next "the pitch white"
 
-	page "intelligence and"
-	next "maneuverability in"
-	next "the water.@"
+	page "snow. When looking"
+	next "through the cloak"
+	next "it shows no face.@"
