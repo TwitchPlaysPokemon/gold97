@@ -3,7 +3,7 @@
 
 	db   "It is doused with"
 	next "spores from when"
-	next "it was a PARAMITE."
+	next "it was a PARASPOR."
 
 	page "As its body grows,"
 	next "mushrooms sprout"

@@ -155,20 +155,20 @@ EvosAttacksPointers::
 	dw ChikoritaEvosAttacks
 	dw PetamoleEvosAttacks
 	dw MeganiumEvosAttacks
+	dw CubburnEvosAttacks
 	dw FlambearEvosAttacks
-	dw VolbearEvosAttacks
-	dw DynabearEvosAttacks
-	dw CruizeEvosAttacks
-	dw AqualloEvosAttacks
-	dw AquariusEvosAttacks
-	dw TangtripEvosAttacks
-	dw GelaniaEvosAttacks
+	dw BruinusEvosAttacks
+	dw PalssioEvosAttacks
+	dw PressioEvosAttacks
+	dw DonmarinEvosAttacks
+	dw BurgelaEvosAttacks
+	dw JungelaEvosAttacks
 	dw HoothootEvosAttacks
 	dw NoctowlEvosAttacks
 	dw LedybaEvosAttacks
-	dw TripstarEvosAttacks
+	dw LedianEvosAttacks
 	dw SpinarakEvosAttacks
-	dw TuheadEvosAttacks
+	dw AriadosEvosAttacks
 	dw CrobatEvosAttacks
 	dw KotoraEvosAttacks
 	dw RaitoraEvosAttacks
@@ -176,7 +176,7 @@ EvosAttacksPointers::
 	dw CleffaEvosAttacks
 	dw IgglybuffEvosAttacks
 	dw TogepiEvosAttacks
-	dw PeticornEvosAttacks
+	dw KoltaEvosAttacks
 	dw NatuEvosAttacks
 	dw XatuEvosAttacks
 	dw MareepEvosAttacks
@@ -184,45 +184,45 @@ EvosAttacksPointers::
 	dw AmpharosEvosAttacks
 	dw BellossomEvosAttacks
 	dw MarillEvosAttacks
-	dw BomshealEvosAttacks
-	dw BelmittEvosAttacks
+	dw GrenmarEvosAttacks
+	dw BellignanEvosAttacks
 	dw PolitoedEvosAttacks
 	dw HoppipEvosAttacks
 	dw SkiploomEvosAttacks
 	dw JumpluffEvosAttacks
 	dw AipomEvosAttacks
-	dw GupgoldEvosAttacks
+	dw OrfryEvosAttacks
 	dw SunfloraEvosAttacks
-	dw CorasunEvosAttacks
-	dw AnchorageEvosAttacks
-	dw GrotessEvosAttacks
+	dw MolambinoEvosAttacks
+	dw AngoreEvosAttacks
+	dw LurreelEvosAttacks
 	dw EspeonEvosAttacks
 	dw UmbreonEvosAttacks
 	dw MurkrowEvosAttacks
 	dw SlowkingEvosAttacks
-	dw TritalesEvosAttacks
+	dw VulpiiiEvosAttacks
 	dw UnownEvosAttacks
-	dw TwinzEvosAttacks
+	dw BipullaEvosAttacks
 	dw GirafarigEvosAttacks
-	dw TurbanEvosAttacks
-	dw GrimbyEvosAttacks
-	dw ParamiteEvosAttacks
-	dw MettoEvosAttacks
+	dw DisturbanEvosAttacks
+	dw SmujjEvosAttacks
+	dw ParasporEvosAttacks
+	dw MimmeoEvosAttacks
 	dw SteelixEvosAttacks
 	dw SnubbullEvosAttacks
 	dw QuagsireEvosAttacks
-	dw PraxeEvosAttacks
+	dw HeracrossEvosAttacks
 	dw ScizorEvosAttacks
-	dw RinringEvosAttacks
-	dw BellrunEvosAttacks
+	dw MoibelleEvosAttacks
+	dw BelledamEvosAttacks
 	dw SneaselEvosAttacks
 	dw QwilfishEvosAttacks
-	dw NumbpuffEvosAttacks
-	dw NyanyaEvosAttacks
+	dw KazappelinEvosAttacks
+	dw CoinpurEvosAttacks
 	dw MadameEvosAttacks
-	dw KurstrawEvosAttacks
-	dw PangshiEvosAttacks
-	dw PuddipupEvosAttacks
+	dw StromenEvosAttacks
+	dw PhandarinEvosAttacks
+	dw PupperonEvosAttacks
 	dw RemoraidEvosAttacks
 	dw OctilleryEvosAttacks
 	dw DelibirdEvosAttacks
@@ -234,20 +234,20 @@ EvosAttacksPointers::
 	dw PhanpyEvosAttacks
 	dw DonphanEvosAttacks
 	dw Porygon2EvosAttacks
-	dw BallerineEvosAttacks
+	dw BaririnaEvosAttacks
 	dw SmeargleEvosAttacks
 	dw TyrogueEvosAttacks
 	dw HitmontopEvosAttacks
 	dw SmoochumEvosAttacks
-	dw ElebabeEvosAttacks
+	dw ElekidEvosAttacks
 	dw MagbyEvosAttacks
-	dw ChixEvosAttacks
+	dw DodaerieEvosAttacks
 	dw MiltankEvosAttacks
 	dw RaikouEvosAttacks
 	dw EnteiEvosAttacks
 	dw SuicuneEvosAttacks
-	dw WolfanEvosAttacks
-	dw WarwolfEvosAttacks
+	dw WarfursEvosAttacks
+	dw WearlycanEvosAttacks
 	dw LickilordEvosAttacks
 	dw BlisseyEvosAttacks
 	dw LugiaEvosAttacks

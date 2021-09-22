@@ -775,10 +775,10 @@ IntroScene10:
 	ld c, CHIKORITA
 	ld de, vTiles0 tile $10
 	farcall Intro_GetMonFrontpic
-	ld c, FLAMBEAR
+	ld c, CUBBURN
 	ld de, vTiles0 tile $29
 	farcall Intro_GetMonFrontpic
-	ld c, CRUIZE
+	ld c, PALSSIO
 	ld de, vTiles0 tile $42
 	farcall Intro_GetMonFrontpic
 
@@ -1020,7 +1020,7 @@ Intro_CyndaquilAppears:
 	ld de, SFX_GS_INTRO_POKEMON_APPEARS
 	call PlaySFX
 	depixel 22, 20
-	ld a, SPRITE_ANIM_INDEX_GS_INTRO_FLAMBEAR
+	ld a, SPRITE_ANIM_INDEX_GS_INTRO_CUBBURN
 	call _InitSpriteAnimStruct
 	ret
 
@@ -1028,7 +1028,7 @@ Intro_TotodileAppears:
 	ld de, SFX_GS_INTRO_POKEMON_APPEARS
 	call PlaySFX
 	depixel 22, 1
-	ld a, SPRITE_ANIM_INDEX_GS_INTRO_CRUIZE
+	ld a, SPRITE_ANIM_INDEX_GS_INTRO_PALSSIO
 	call _InitSpriteAnimStruct
 	ret
 
@@ -1052,19 +1052,19 @@ Intro_LoadChikoritaPalette:
 	ret
 
 Intro_LoadCyndaquilPalette:
-	ld c, FLAMBEAR
+	ld c, CUBBURN
 	farcall Intro_LoadMonPalette
 	ret
 
 Intro_LoadTotodilePalette:
-	ld c, CRUIZE
+	ld c, PALSSIO
 	farcall Intro_LoadMonPalette
 	ret
 
 Intro_LoadCharizardPalette:
 	ldh a, [hCGB]
 	and a
-	ld c, FLAMBEAR
+	ld c, CUBBURN
 	jr nz, .got_mon
 	ld c, CHARIZARD
 .got_mon

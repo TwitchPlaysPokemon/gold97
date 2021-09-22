@@ -88,7 +88,7 @@ BattleTowerMons1:
 	bigdw 39 ; SDef
 	db "BURAtuKI-@@"
 
-	db TWINZ ; DONE
+	db BIPULLA ; DONE
 	db FOCUS_BAND
 	db PSYCHIC_M, MEAN_LOOK, SHADOW_BALL, HAZE
 	dw 0 ; OT ID
@@ -296,7 +296,7 @@ BattleTowerMons1:
 	bigdw 31 ; SDef
 	db "PORIGON2@@@"
 
-	db KURSTRAW ; DONE
+	db STROMEN ; DONE
 	db FOCUS_BAND
 	db SPITE, CURSE, PSYCHIC_M, SHADOW_BALL
 	dw 0 ; OT ID
@@ -452,7 +452,7 @@ BattleTowerMons1:
 	bigdw 25 ; SDef
 	db "NAtuSI-@@@@"
 
-	db TURBAN ; DONE
+	db DISTURBAN ; DONE
 	db GOLD_BERRY
 	db BITE, SURF, PROTECT, MUD_SLAP
 	dw 0 ; OT ID
@@ -949,7 +949,7 @@ BattleTowerMons2:
 	bigdw 47 ; SDef
 	db "KENTAROSU@@"
 
-	db BOMSHEAL ; DONE
+	db GRENMAR ; DONE
 	db MYSTIC_WATER
 	db SURF, FIRE_BLAST, ATTRACT, IRON_TAIL
 	dw 0 ; OT ID
@@ -1472,7 +1472,7 @@ BattleTowerMons3:
 	bigdw 81 ; SDef
 	db "RAPURASU@@@"
 
-	db ANCHORAGE ; DONE
+	db ANGORE ; DONE
 	db GOLD_BERRY
 	db RAIN_DANCE, IRON_TAIL, SURF, PROTECT
 	dw 0 ; OT ID
@@ -1576,7 +1576,7 @@ BattleTowerMons3:
 	bigdw 70 ; SDef
 	db "GENGA-@@@@@"
 
-	db BELLRUN ; DONE
+	db BELLEDAM ; DONE
 	db GOLD_BERRY
 	db HEADBUTT, PROTECT, ROAR, GLARE
 	dw 0 ; OT ID
@@ -1839,7 +1839,7 @@ BattleTowerMons4:
 	bigdw 105 ; SDef
 	db "SUTA-MI-@@@"
 
-	db PANGSHI ; DONE
+	db PHANDARIN ; DONE
 	db GOLD_BERRY
 	db SHADOW_BALL, BODY_SLAM, CURSE, CONFUSE_RAY 
 	dw 0 ; OT ID
@@ -2021,7 +2021,7 @@ BattleTowerMons4:
 	bigdw 99 ; SDef
 	db "UINDEi@@@@@"
 
-	db BELMITT ; DONE
+	db BELLIGNAN ; DONE
 	db MIRACLE_SEED
 	db SLEEP_POWDER, GIGA_DRAIN, TOXIC, SLUDGE_BOMB
 	dw 0 ; OT ID
@@ -2622,7 +2622,7 @@ BattleTowerMons5:
 	bigdw 113 ; SDef
 	db "EA-MUDO@@@@"
 
-	db PRAXE ; DONE
+	db HERACROSS ; DONE
 	db SILVERPOWDER
 	db MEGAHORN, EARTHQUAKE, SWORDS_DANCE, SWAGGER
 	dw 0 ; OT ID
@@ -2911,7 +2911,7 @@ BattleTowerMons6:
 	bigdw 161 ; SDef
 	db "SANDA-@@@@@"
 
-	db GELANIA ; DONE
+	db JUNGELA ; DONE
 	db LEFTOVERS
 	db GIGA_DRAIN, ANCIENTPOWER, PROTECT, TOXIC
 	dw 0 ; OT ID
@@ -3460,7 +3460,7 @@ BattleTowerMons7:
 	bigdw 175 ; SDef
 	db "HERUGA-@@@@"
 
-	db DYNABEAR ; DONE
+	db BRUINUS ; DONE
 	db GOLD_BERRY
 	db CRUNCH, SLASH, REST, FIRE_BLAST
 	dw 0 ; OT ID
@@ -3616,7 +3616,7 @@ BattleTowerMons7:
 	bigdw 152 ; SDef
 	db "NUO-@@@@@@@"
 
-	db GROTESS ; DONE
+	db LURREEL ; DONE
 	db SCOPE_LENS
 	db SURF, IRON_TAIL, PROTECT, CRUNCH
 	dw 0 ; OT ID
@@ -4035,7 +4035,7 @@ BattleTowerMons8:
 	bigdw 189 ; SDef
 	db "GENGA-@@@@@"
 
-	db AQUARIUS ; DONE
+	db DONMARIN ; DONE
 	db LEFTOVERS
 	db HYDRO_PUMP, BLIZZARD, PROTECT, SAFEGUARD
 	dw 0 ; OT ID
@@ -4818,7 +4818,7 @@ BattleTowerMons9:
 	bigdw 193 ; SDef
 	db "EA-MUDO@@@@"
 
-	db BELLRUN ; DONE
+	db BELLEDAM ; DONE
 	db BRIGHTPOWDER
 	db TOXIC, ATTRACT, PROTECT, DISABLE
 	dw 0 ; OT ID
@@ -5107,7 +5107,7 @@ BattleTowerMons10:
 	bigdw 250 ; SDef
 	db "UINDEi@@@@@"
 
-	db DYNABEAR ; DONE
+	db BRUINUS ; DONE
 	db SCOPE_LENS
 	db FLAMETHROWER, EARTHQUAKE, SLASH, CRUNCH
 	dw 0 ; OT ID
@@ -5237,7 +5237,7 @@ BattleTowerMons10:
 	bigdw 212 ; SDef
 	db "ONIDORIRU@@"
 
-	db PANGSHI ; DONE
+	db PHANDARIN ; DONE
 	db FOCUS_BAND
 	db PERISH_SONG, MEAN_LOOK, PAIN_SPLIT, SHADOW_BALL
 	dw 0 ; OT ID
@@ -5341,7 +5341,7 @@ BattleTowerMons10:
 	bigdw 346 ; SDef
 	db "HAPINASU@@@"
 
-	db WARWOLF ; DONE
+	db WEARLYCAN ; DONE
 	db MINT_BERRY
 	db REST, BLIZZARD, HYPER_BEAM, CONFUSE_RAY
 	dw 0 ; OT ID

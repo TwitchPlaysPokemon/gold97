@@ -256,7 +256,7 @@ SlowpokeWellB2FGymGuyText:
 	line "KING'S ROCK often"
 
 	para "gets bitten by a"
-	line "TURBAN."
+	line "DISTURBAN."
 
 	para "Here, I'll share a"
 	line "KING'S ROCK with"

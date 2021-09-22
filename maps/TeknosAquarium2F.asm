@@ -116,7 +116,7 @@ Aqua2FExhibit3Script:
 	jumptext Aqua2FExhibit3Text
 	
 Aqua2FExhibit1Text:
-	text "GUPGOLD are among"
+	text "ORFRY are among"
 	line "the smallest of"
 	para "all aquatic"
 	line "#MON."
@@ -159,7 +159,7 @@ Aqua2FExhibit2Text:
 	done
 	
 Aqua2FExhibit3Text:
-	text "TURBAN can survive"
+	text "DISTURBAN can survive"
 	line "on both land and"
 	cont "fully underwater."
 	para "It has a unique"

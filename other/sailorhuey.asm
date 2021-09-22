@@ -206,8 +206,8 @@ TrainerBugCatcherArnie:
 	opentext
 	checkflag ENGINE_ARNIE
 	iftrue .WantsBattle
-	checkflag ENGINE_OSUNFISH_SWARM
-	iftrue .OsunfishSwarming
+	checkflag ENGINE_MOLAMBINO_SWARM
+	iftrue .MolambinoSwarming
 	checkcellnum PHONE_BUG_CATCHER_ARNIE
 	iftrue Route35NumberAcceptedM
 	checkevent EVENT_ARNIE_ASKED_FOR_PHONE_NUMBER
@@ -288,8 +288,8 @@ TrainerBugCatcherArnie:
 	clearflag ENGINE_ARNIE
 	end
 
-.OsunfishSwarming:
-	writetext BugCatcherArnieOsunfishText
+.MolambinoSwarming:
+	writetext BugCatcherArnieMolambinoText
 	waitbutton
 	closetext
 	end
@@ -313,9 +313,9 @@ BugCatcherArnieAfterBattleText:
 	line "NATIONAL PARK."
 	done
 
-BugCatcherArnieOsunfishText:
+BugCatcherArnieMolambinoText:
 	text "Wow… Look at all"
-	line "those OSUNFISH!"
+	line "those MOLAMBINO!"
 
 	para "I'm so blown away,"
 	line "I can't move."

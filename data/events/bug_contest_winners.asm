@@ -28,7 +28,7 @@ BugContestant_BugCatcherEd:
 	db BUG_CATCHER, ED
 	dbw VENOMOTH,   286
 	dbw PARASECT,   251
-	dbw TUHEAD,     237
+	dbw ARIADOS,     237
 
 BugContestant_CooltrainerMNick:
 	db COOLTRAINERM, NICK
@@ -56,8 +56,8 @@ BugContestant_CamperBarry:
 
 BugContestant_PicnickerCindy:
 	db PICNICKER, CINDY
-	dbw TUHEAD, 	341
-	dbw TRIPSTAR,   301
+	dbw ARIADOS, 	341
+	dbw LEDIAN,   301
 	dbw VENONAT,    264
 
 BugContestant_BugCatcherJosh:
@@ -68,7 +68,7 @@ BugContestant_BugCatcherJosh:
 
 BugContestant_YoungsterSamuel:
 	db YOUNGSTER, SAMUEL
-	dbw TUHEAD,     270
+	dbw ARIADOS,     270
 	dbw BEEDRILL,   282
 	dbw VENONAT,    251
 

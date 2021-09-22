@@ -1,10 +1,10 @@
 	db "FIRE BEAR@" ; species name
-	dw 201, 220 ; height, weight
+	dw 305, 720 ; height, weight
 
-	db   "The warmth from"
-	next "its body makes it"
-	next "nice to hug when"
+	db   "When threatened"
+	next "severely, rather"
+	next "than fighting with"
 
-	page "cold. In summer"
-	next "they get sad from"
-	next "lack of cuddles.@"
+	page "its claws, it will"
+	next "turn around and"
+	next "blast a heat wave.@"

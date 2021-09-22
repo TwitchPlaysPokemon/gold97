@@ -3,7 +3,7 @@
 	const TOWER3MED2
 	const TOWER3MED3
 	const TOWER3MED4
-	const TOWER3PANGSHI
+	const TOWER3PHANDARIN
 	const TOWER3TRAINERSAGE
 	const TOWER3ITEMBALL
 
@@ -135,36 +135,36 @@ Tower3Medium4AfterText:
 	done
 
 
-Tower3Pangshi:
+Tower3Phandarin:
 	checkevent EVENT_BEAT_TOWER_GENGAR
-	iftrue Tower3PangshiAfter
+	iftrue Tower3PhandarinAfter
 	faceplayer
 	opentext
-	writetext Tower3PangshiWearyText
-	writebyte PANGSHI
+	writetext Tower3PhandarinWearyText
+	writebyte PHANDARIN
 	special PlaySlowCry
 	waitbutton
 	closetext
 	end
 	
-Tower3PangshiAfter:
+Tower3PhandarinAfter:
 	faceplayer
 	opentext
-	writetext Tower3PangshiAfterText
-	cry PANGSHI
+	writetext Tower3PhandarinAfterText
+	cry PHANDARIN
 	waitbutton
 	closetext
 	end
 	
-Tower3PangshiWearyText:
-	text "PANGSHI: Shii…"
+Tower3PhandarinWearyText:
+	text "PHANDARIN: Shii…"
 	
 	para "It's looking"
 	line "weary…"
 	done
 	
-Tower3PangshiAfterText:
-	text "PANGSHI: Shii!"
+Tower3PhandarinAfterText:
+	text "PHANDARIN: Shii!"
 	
 	para "It's looking"
 	line "stiff but happy!"
@@ -241,7 +241,7 @@ PokemonTower3F_MapEvents:
 	object_event  8,  9, SPRITE_GRANNY, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, Tower3Medium2, -1
 	object_event 13,  9, SPRITE_GRANNY, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, Tower3Medium3, -1
 	object_event 13, 11, SPRITE_GRANNY, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BROWN, OBJECTTYPE_SCRIPT, 0, Tower3Medium4, -1
-	object_event 11, 10, SPRITE_MONSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Tower3Pangshi, -1
+	object_event 11, 10, SPRITE_MONSTER, SPRITEMOVEDATA_SPINRANDOM_FAST, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_SCRIPT, 0, Tower3Phandarin, -1
 	object_event  5,  7, SPRITE_SAGE, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, PAL_NPC_BLUE, OBJECTTYPE_TRAINER, 3, TrainerSageWang, -1
 	object_event 12,  2, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Tower3Itemball, EVENT_TOWER3_ITEMBALL
 	

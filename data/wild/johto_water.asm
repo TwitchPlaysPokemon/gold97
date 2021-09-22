@@ -13,7 +13,7 @@ JohtoWaterWildMons:
 	
 	map_id WESTPORT_CITY
 	db 2 percent ; encounter rate
-	db 18, GUPGOLD
+	db 18, ORFRY
 	db 15, STARYU
 	db 18, GOLDEEN
 
@@ -32,36 +32,36 @@ JohtoWaterWildMons:
 	map_id RUINS_OF_ALPH_OUTSIDE
 	db 6 percent ; encounter rate
 	db 20, TENTACOOL
-	db 18, CORASUN
+	db 18, MOLAMBINO
 	db 20, HORSEA
 	
 	map_id SUNPOINT_CITY
 	db 6 percent ; encounter rate
 	db 22, TENTACOOL
-	db 20, CORASUN
+	db 20, MOLAMBINO
 	db 24, HORSEA
 	
 	map_id SANSKRIT_TOWN
 	db 6 percent ; encounter rate
 	db 20, GOLDEEN
-	db 25, CORASUN
+	db 25, MOLAMBINO
 	db 25, SEAKING
 	
 	map_id ROUTE_118
 	db 6 percent ; encounter rate
 	db 20, TENTACOOL
-	db 25, CORASUN
+	db 25, MOLAMBINO
 	db 25, TENTACRUEL
 	
 	map_id ROUTE_119
 	db 6 percent ; encounter rate
 	db 20, TENTACOOL
-	db 18, CORASUN
+	db 18, MOLAMBINO
 	db 20, HORSEA
 	
 	map_id ROUTE_120
 	db 6 percent ; encounter rate
-	db 15, GUPGOLD
+	db 15, ORFRY
 	db 18, POLIWAG
 	db 18, MARILL
 	
@@ -85,25 +85,25 @@ JohtoWaterWildMons:
 	
 	map_id BOULDER_MINES_1F
 	db 4 percent ; encounter rate
-	db 15, GUPGOLD
+	db 15, ORFRY
 	db 18, POLIWAG
 	db 18, MARILL
 
 	map_id BOULDER_MINES_B1F
 	db 4 percent ; encounter rate
-	db 15, GUPGOLD
+	db 15, ORFRY
 	db 18, POLIWAG
 	db 18, MARILL
 
 	map_id BOULDER_MINES_B2F
 	db 4 percent ; encounter rate
-	db 15, GUPGOLD
+	db 15, ORFRY
 	db 18, POLIWAG
 	db 18, MARILL
 	
 	map_id BOULDER_MINES_B3F
 	db 4 percent ; encounter rate
-	db 15, GUPGOLD
+	db 15, ORFRY
 	db 18, POLIWAG
 	db 18, MARILL
 	
@@ -134,8 +134,8 @@ JohtoWaterWildMons:
 	map_id SUNPOINT_DOCKS
 	db 4 percent ; encounter rate
 	db 20, TENTACOOL
-	db 18, CORASUN
-	db 22, ANCHORAGE
+	db 18, MOLAMBINO
+	db 22, ANGORE
 	
 	map_id JADE_FOREST
 	db 4 percent ; encounter rate
@@ -286,13 +286,13 @@ JohtoWaterWildMons:
 	map_id TIDAL_GROTTO_1F
 	db 4 percent ; encounter rate
 	db 38, GOLDUCK
-	db 38, ANCHORAGE
+	db 38, ANGORE
 	db 35, DRATINI
 	
 	map_id TIDAL_GROTTO_B1F
 	db 4 percent ; encounter rate
 	db 38, GOLDUCK
-	db 38, ANCHORAGE
+	db 38, ANGORE
 	db 35, DRAGONAIR
 
 	db -1 ; end

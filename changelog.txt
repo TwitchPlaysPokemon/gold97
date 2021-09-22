@@ -1,6 +1,6 @@
 1.14
 - fixed typo when trying to enter battle club without battle pass
-- gave curstraw/curpan curse via level-up
+- gave stromen/phandarin curse via level-up
 - removed unneeded data for crystal exclusive movesets
 - all pokemon that should be able to can now learn toxic
 2.0
@@ -38,7 +38,7 @@
 - Qwilfish learns thunder wave at level 12 instead of 10 so it isn't at the same time as water gun
 - added text to empty trash can in team rocket boat
 - boardwalk is built now as soon as slowpoke well event is complete, doesn't require stepping onto route 116
-- slightly adjusted stats for Numbpuff, Aquarius
+- slightly adjusted stats for Kazappelin, Donmarin
 - a few minor item ball placement changes
 
 I think I'm about done making changes to this for now. Will still fix any minor bugs that are found but I believe it's feature complete at this point. Maybe I'll come back to it in the future, pretty happy with what I've made though.

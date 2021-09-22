@@ -159,7 +159,7 @@ KantoGrassWildMons:
 	; nite
 	db 49, EXEGGCUTE
 	db 48, NIDORINA
-	db 50, TUHEAD
+	db 50, ARIADOS
 	db 48, PINSIR
 	db 48, SCYTHER
 	db 48, CHANSEY
@@ -172,7 +172,7 @@ KantoGrassWildMons:
 	db 48, GRAVELER
 	db 48, RHYHORN
 	db 52, HOUNDOOM
-	db 50, BOMSHEAL
+	db 50, GRENMAR
 	db 50, MAGMAR
 	db 52, MAGMAR
 	; day
@@ -180,7 +180,7 @@ KantoGrassWildMons:
 	db 48, GRAVELER
 	db 48, RHYHORN
 	db 52, HOUNDOOM
-	db 50, BOMSHEAL
+	db 50, GRENMAR
 	db 50, MAGMAR
 	db 52, MAGMAR
 	; nite
@@ -188,7 +188,7 @@ KantoGrassWildMons:
 	db 48, GRAVELER
 	db 48, RHYHORN
 	db 52, HOUNDOOM
-	db 50, BOMSHEAL
+	db 50, GRENMAR
 	db 50, MAGMAR
 	db 52, MAGMAR
 	
@@ -213,7 +213,7 @@ KantoGrassWildMons:
 	db 53, JUMPLUFF
 	; nite
 	db 52, NOCTOWL
-	db 53, BELLRUN
+	db 53, BELLEDAM
 	db 54, MURKROW
 	db 53, GOLDUCK
 	db 52, PERSIAN
@@ -242,7 +242,7 @@ KantoGrassWildMons:
 	db 53, PERSIAN
 	db 54, MURKROW
 	db 53, GOLDUCK
-	db 52, BELLRUN
+	db 52, BELLEDAM
 	db 53, NOCTOWL
 	db 53, NOCTOWL
 	ENDC
@@ -307,7 +307,7 @@ KantoGrassWildMons:
 	db 52, MAGNETON
 	db 52, ELECTRODE
 	db 53, HAUNTER
-	db 53, PANGSHI
+	db 53, PHANDARIN
 	db 52, RATICATE
 	db 53, RATICATE
 	db 53, RATICATE
@@ -315,7 +315,7 @@ KantoGrassWildMons:
 	db 52, MAGNETON
 	db 52, ELECTRODE
 	db 53, HAUNTER
-	db 53, PANGSHI
+	db 53, PHANDARIN
 	db 52, RATICATE
 	db 53, RATICATE
 	db 53, RATICATE
@@ -323,7 +323,7 @@ KantoGrassWildMons:
 	db 52, MAGNETON
 	db 52, ELECTRODE
 	db 53, HAUNTER
-	db 53, PANGSHI
+	db 53, PHANDARIN
 	db 52, RATICATE
 	db 53, RATICATE
 	db 53, RATICATE
@@ -334,7 +334,7 @@ KantoGrassWildMons:
 	; morn
 	db 55, GOLBAT
 	db 56, DEWGONG
-	db 55, WOLFAN
+	db 55, WARFURS
 	db 55, SLOWPOKE
 	db 57, JYNX
 	db 56, QUAGSIRE
@@ -342,7 +342,7 @@ KantoGrassWildMons:
 	; day
 	db 55, GOLBAT
 	db 56, DEWGONG
-	db 55, WOLFAN
+	db 55, WARFURS
 	db 55, SLOWPOKE
 	db 57, JYNX
 	db 56, QUAGSIRE
@@ -350,7 +350,7 @@ KantoGrassWildMons:
 	; nite
 	db 55, GOLBAT
 	db 56, DEWGONG
-	db 55, WOLFAN
+	db 55, WARFURS
 	db 55, SLOWPOKE
 	db 57, SNEASEL
 	db 56, QUAGSIRE
@@ -361,26 +361,26 @@ KantoGrassWildMons:
 	; morn
 	db 55, GOLBAT
 	db 56, DEWGONG
-	db 55, WOLFAN
+	db 55, WARFURS
 	db 55, SLOWBRO
 	db 57, JYNX
-	db 56, WARWOLF
+	db 56, WEARLYCAN
 	db 58, JYNX
 	; day
 	db 55, GOLBAT
 	db 56, DEWGONG
-	db 55, WOLFAN
+	db 55, WARFURS
 	db 55, SLOWBRO
 	db 57, JYNX
-	db 56, WARWOLF
+	db 56, WEARLYCAN
 	db 58, JYNX
 	; nite
 	db 55, GOLBAT
 	db 56, DEWGONG
-	db 55, WOLFAN
+	db 55, WARFURS
 	db 55, SLOWBRO
 	db 57, SNEASEL
-	db 56, WARWOLF
+	db 56, WEARLYCAN
 	db 58, SNEASEL
 
 
@@ -392,16 +392,16 @@ KantoGrassWildMons:
 	db 55, PSYDUCK
 	db 55, EXEGGUTOR
 	db 57, EXEGGUTOR
-	db 56, BELMITT
-	db 58, BELMITT
+	db 56, BELLIGNAN
+	db 58, BELLIGNAN
 	; day
 	db 55, SLOWPOKE
 	db 56, WEEPINBELL
 	db 55, PSYDUCK
 	db 55, EXEGGUTOR
 	db 57, EXEGGUTOR
-	db 56, BELMITT
-	db 58, BELMITT
+	db 56, BELLIGNAN
+	db 58, BELLIGNAN
 	; nite
 	db 55, SLOWPOKE
 	db 56, POLIWHIRL
@@ -470,7 +470,7 @@ KantoGrassWildMons:
 	IF DEF(_GOLD)
 	; morn
 	db 55, BUTTERFREE
-	db 56, TRIPSTAR
+	db 56, LEDIAN
 	db 55, JIGGLYPUFF
 	db 55, PIKACHU
 	db 57, EXEGGUTOR
@@ -478,7 +478,7 @@ KantoGrassWildMons:
 	db 58, TOGEPI
 	; day
 	db 55, BUTTERFREE
-	db 56, TRIPSTAR
+	db 56, LEDIAN
 	db 55, JIGGLYPUFF
 	db 55, PIKACHU
 	db 57, EXEGGUTOR
@@ -496,7 +496,7 @@ KantoGrassWildMons:
 	ELIF DEF(_SILVER)
 	; morn
 	db 55, BEEDRILL
-	db 56, TRIPSTAR
+	db 56, LEDIAN
 	db 55, JIGGLYPUFF
 	db 55, PIKACHU
 	db 57, EXEGGUTOR
@@ -504,7 +504,7 @@ KantoGrassWildMons:
 	db 58, TOGEPI
 	; day
 	db 55, BEEDRILL
-	db 56, TRIPSTAR
+	db 56, LEDIAN
 	db 55, JIGGLYPUFF
 	db 55, PIKACHU
 	db 57, EXEGGUTOR
@@ -555,7 +555,7 @@ KantoGrassWildMons:
 	db 48, GRAVELER
 	db 48, MACHOKE
 	db 52, WEEZING
-	db 50, BOMSHEAL
+	db 50, GRENMAR
 	db 50, MAGMAR
 	db 52, MAGMAR
 	; day
@@ -563,7 +563,7 @@ KantoGrassWildMons:
 	db 48, GRAVELER
 	db 48, MACHOKE
 	db 52, WEEZING
-	db 50, BOMSHEAL
+	db 50, GRENMAR
 	db 50, MAGMAR
 	db 52, MAGMAR
 	; nite
@@ -571,7 +571,7 @@ KantoGrassWildMons:
 	db 48, GRAVELER
 	db 48, MACHOKE
 	db 52, WEEZING
-	db 50, BOMSHEAL
+	db 50, GRENMAR
 	db 50, MAGMAR
 	db 52, MAGMAR
 
@@ -583,7 +583,7 @@ KantoGrassWildMons:
 	db 48, GRAVELER
 	db 48, MACHOKE
 	db 52, WEEZING
-	db 50, BOMSHEAL
+	db 50, GRENMAR
 	db 50, HITMONCHAN
 	db 50, HITMONLEE
 	; day
@@ -591,7 +591,7 @@ KantoGrassWildMons:
 	db 48, GRAVELER
 	db 48, MACHOKE
 	db 52, WEEZING
-	db 50, BOMSHEAL
+	db 50, GRENMAR
 	db 50, HITMONCHAN
 	db 50, HITMONLEE
 	; nite
@@ -599,7 +599,7 @@ KantoGrassWildMons:
 	db 48, GRAVELER
 	db 48, MACHOKE
 	db 52, WEEZING
-	db 50, BOMSHEAL
+	db 50, GRENMAR
 	db 50, HITMONCHAN
 	db 50, HITMONLEE
 	
@@ -624,201 +624,201 @@ KantoGrassWildMons:
 	db 50, PRIMEAPE
 	; nite
 	db 46, KRABBY
-	db 47, RINRING
-	db 47, BELLRUN
+	db 47, MOIBELLE
+	db 47, BELLEDAM
 	db 50, TANGELA
 	db 46, KINGLER
 	db 48, RAITORA
-	db 50, GELANIA
+	db 50, JUNGELA
 	
 	map_id CASTLE_MOUNTAIN_1F
 	db 5 percent, 5 percent, 5 percent ; encounter rates: morn/day/nite
 	; morn
 	db 52, RATICATE
-	db 52, KURSTRAW
+	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, TUHEAD
+	db 53, ARIADOS
 	db 52, HAUNTER
-	db 53, PANGSHI
-	db 53, TUHEAD
+	db 53, PHANDARIN
+	db 53, ARIADOS
 	; day
 	db 52, RATICATE
-	db 52, KURSTRAW
+	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, TUHEAD
+	db 53, ARIADOS
 	db 52, HAUNTER
-	db 53, PANGSHI
-	db 53, TUHEAD
+	db 53, PHANDARIN
+	db 53, ARIADOS
 	; nite
 	db 52, RATICATE
-	db 52, KURSTRAW
+	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, TUHEAD
+	db 53, ARIADOS
 	db 52, HAUNTER
-	db 53, PANGSHI
-	db 53, TUHEAD
+	db 53, PHANDARIN
+	db 53, ARIADOS
 	
 	map_id CASTLE_MOUNTAIN_1F_LONG_HALL
 	db 5 percent, 5 percent, 5 percent ; encounter rates: morn/day/nite
 	; morn
 	db 52, RATICATE
-	db 52, KURSTRAW
+	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, TUHEAD
+	db 53, ARIADOS
 	db 52, HAUNTER
-	db 53, PANGSHI
-	db 53, TUHEAD
+	db 53, PHANDARIN
+	db 53, ARIADOS
 	; day
 	db 52, RATICATE
-	db 52, KURSTRAW
+	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, TUHEAD
+	db 53, ARIADOS
 	db 52, HAUNTER
-	db 53, PANGSHI
-	db 53, TUHEAD
+	db 53, PHANDARIN
+	db 53, ARIADOS
 	; nite
 	db 52, RATICATE
-	db 52, KURSTRAW
+	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, TUHEAD
+	db 53, ARIADOS
 	db 52, HAUNTER
-	db 53, PANGSHI
-	db 53, TUHEAD
+	db 53, PHANDARIN
+	db 53, ARIADOS
 	
 	map_id CASTLE_MOUNTAIN_1F_DANCE_HALL
 	db 3 percent, 3 percent, 3 percent ; encounter rates: morn/day/nite
 	; morn
 	db 52, RATICATE
-	db 52, KURSTRAW
+	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, TUHEAD
+	db 53, ARIADOS
 	db 52, HAUNTER
-	db 53, PANGSHI
-	db 53, TUHEAD
+	db 53, PHANDARIN
+	db 53, ARIADOS
 	; day
 	db 52, RATICATE
-	db 52, KURSTRAW
+	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, TUHEAD
+	db 53, ARIADOS
 	db 52, HAUNTER
-	db 53, PANGSHI
-	db 53, TUHEAD
+	db 53, PHANDARIN
+	db 53, ARIADOS
 	; nite
 	db 52, RATICATE
-	db 52, KURSTRAW
+	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, TUHEAD
+	db 53, ARIADOS
 	db 52, HAUNTER
-	db 53, PANGSHI
-	db 53, TUHEAD
+	db 53, PHANDARIN
+	db 53, ARIADOS
 	
 	map_id CASTLE_MOUNTAIN_1F_DINING_HALL
 	db 3 percent, 3 percent, 3 percent ; encounter rates: morn/day/nite
 	; morn
 	db 52, RATICATE
-	db 52, KURSTRAW
+	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, TUHEAD
+	db 53, ARIADOS
 	db 52, HAUNTER
-	db 53, PANGSHI
-	db 53, TUHEAD
+	db 53, PHANDARIN
+	db 53, ARIADOS
 	; day
 	db 52, RATICATE
-	db 52, KURSTRAW
+	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, TUHEAD
+	db 53, ARIADOS
 	db 52, HAUNTER
-	db 53, PANGSHI
-	db 53, TUHEAD
+	db 53, PHANDARIN
+	db 53, ARIADOS
 	; nite
 	db 52, RATICATE
-	db 52, KURSTRAW
+	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, TUHEAD
+	db 53, ARIADOS
 	db 52, HAUNTER
-	db 53, PANGSHI
-	db 53, TUHEAD
+	db 53, PHANDARIN
+	db 53, ARIADOS
 	
 	map_id CASTLE_MOUNTAIN_2F
 	db 5 percent, 5 percent, 5 percent ; encounter rates: morn/day/nite
 	; morn
 	db 52, HAUNTER
-	db 52, KURSTRAW
+	db 52, STROMEN
 	db 53, RATICATE
-	db 53, BELLRUN
+	db 53, BELLEDAM
 	db 52, HAUNTER
-	db 53, PANGSHI
-	db 56, TUHEAD
+	db 53, PHANDARIN
+	db 56, ARIADOS
 	; day
 	db 52, HAUNTER
-	db 52, KURSTRAW
+	db 52, STROMEN
 	db 53, RATICATE
-	db 53, BELLRUN
+	db 53, BELLEDAM
 	db 52, HAUNTER
-	db 53, PANGSHI
-	db 56, TUHEAD
+	db 53, PHANDARIN
+	db 56, ARIADOS
 	; nite
 	db 52, HAUNTER
-	db 52, KURSTRAW
+	db 52, STROMEN
 	db 53, RATICATE
-	db 53, BELLRUN
+	db 53, BELLEDAM
 	db 52, HAUNTER
-	db 53, PANGSHI
-	db 56, TUHEAD
+	db 53, PHANDARIN
+	db 56, ARIADOS
 	
 	map_id CASTLE_MOUNTAIN_3FA
 	db 3 percent, 3 percent, 3 percent ; encounter rates: morn/day/nite
 	; morn
 	db 52, MURKROW
-	db 52, KURSTRAW
+	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, TUHEAD
+	db 53, ARIADOS
 	db 52, RATICATE
-	db 53, PANGSHI
-	db 53, TUHEAD
+	db 53, PHANDARIN
+	db 53, ARIADOS
 	; day
 	db 52, MURKROW
-	db 52, KURSTRAW
+	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, TUHEAD
+	db 53, ARIADOS
 	db 52, RATICATE
-	db 53, PANGSHI
-	db 53, TUHEAD
+	db 53, PHANDARIN
+	db 53, ARIADOS
 	; nite
 	db 52, MURKROW
-	db 52, KURSTRAW
+	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, TUHEAD
+	db 53, ARIADOS
 	db 52, RATICATE
-	db 53, PANGSHI
-	db 53, TUHEAD
+	db 53, PHANDARIN
+	db 53, ARIADOS
 	
 	map_id CASTLE_MOUNTAIN_3FB
 	db 3 percent, 3 percent, 3 percent ; encounter rates: morn/day/nite
 	; morn
 	db 52, MURKROW
-	db 52, KURSTRAW
+	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, TUHEAD
+	db 53, ARIADOS
 	db 52, RATICATE
-	db 53, PANGSHI
-	db 53, TUHEAD
+	db 53, PHANDARIN
+	db 53, ARIADOS
 	; day
 	db 52, MURKROW
-	db 52, KURSTRAW
+	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, TUHEAD
+	db 53, ARIADOS
 	db 52, RATICATE
-	db 53, PANGSHI
-	db 53, TUHEAD
+	db 53, PHANDARIN
+	db 53, ARIADOS
 	; nite
 	db 52, MURKROW
-	db 52, KURSTRAW
+	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, TUHEAD
+	db 53, ARIADOS
 	db 52, RATICATE
-	db 53, PANGSHI
-	db 53, TUHEAD
+	db 53, PHANDARIN
+	db 53, ARIADOS
 	
 	map_id CASTLE_MOUNTAIN_1F_CAVE
 	db 3 percent, 3 percent, 3 percent ; encounter rates: morn/day/nite

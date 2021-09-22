@@ -56,7 +56,7 @@ SpriteAnimFrameData:
 	dw .Frameset_IntroSuicune
 	dw .Frameset_IntroSuicune2
 	dw .Frameset_IntroPichu
-	dw .Frameset_IntroAnchorage
+	dw .Frameset_IntroAngore
 	dw .Frameset_IntroUnown1
 	dw .Frameset_IntroUnown2
 	dw .Frameset_IntroUnown3
@@ -67,8 +67,8 @@ SpriteAnimFrameData:
 	dw .Frameset_LeafeonLeft
 	dw .Frameset_LeafeonRight
 	dw .Frameset_GS_INTRO_FIREBALL
-	dw .Frameset_GS_INTRO_CRUIZE
-	dw .Frameset_GS_INTRO_FLAMBEAR
+	dw .Frameset_GS_INTRO_PALSSIO
+	dw .Frameset_GS_INTRO_CUBBURN
 	dw .Frameset_GS_INTRO_CHIKORITA
 	dw .Frameset_GS_INTRO_PIKACHU_TAIL
 	dw .Frameset_GS_INTRO_PIKACHU_TAIL_2
@@ -441,8 +441,8 @@ SpriteAnimFrameData:
 	frame SPRITE_ANIM_OAMSET_INTRO_PICHU_3,  7
 	endanim
 
-.Frameset_IntroAnchorage:
-	frame SPRITE_ANIM_OAMSET_INTRO_ANCHORAGE,  3
+.Frameset_IntroAngore:
+	frame SPRITE_ANIM_OAMSET_INTRO_ANGORE,  3
 	endanim
 
 .Frameset_IntroUnown1:
@@ -500,11 +500,11 @@ SpriteAnimFrameData:
 	frame SPRITE_ANIM_OAMSET_GS_INTRO_MED_FIREBALL,  1
 	frame SPRITE_ANIM_OAMSET_GS_INTRO_BIG_FIREBALL,  1
 	delanim
-.Frameset_GS_INTRO_CRUIZE:
-	frame SPRITE_ANIM_OAMSET_GS_INTRO_CRUIZE, 24
+.Frameset_GS_INTRO_PALSSIO:
+	frame SPRITE_ANIM_OAMSET_GS_INTRO_PALSSIO, 24
 	delanim
-.Frameset_GS_INTRO_FLAMBEAR:
-	frame SPRITE_ANIM_OAMSET_GS_INTRO_FLAMBEAR, 24, OAM_X_FLIP
+.Frameset_GS_INTRO_CUBBURN:
+	frame SPRITE_ANIM_OAMSET_GS_INTRO_CUBBURN, 24, OAM_X_FLIP
 	delanim
 .Frameset_GS_INTRO_CHIKORITA:
 	frame SPRITE_ANIM_OAMSET_GS_INTRO_CHIKORITA, 24

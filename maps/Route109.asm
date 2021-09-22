@@ -124,8 +124,8 @@ Route109FruitTree:
 Route109HiddenNugget:
 	hiddenitem NUGGET, EVENT_ROUTE_39_HIDDEN_NUGGET
 
-Route109ChixText:
-	text "CHIX: Mooo!"
+Route109DodaerieText:
+	text "DODAERIE: Mooo!"
 	done
 
 PokefanmDerekSeenText:

@@ -185,7 +185,7 @@ SilentGroupSprites:
 	db SPRITE_COOLTRAINER_F
 	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
-	db SPRITE_BELMITT ; package
+	db SPRITE_BELLIGNAN ; package
 	db 0 ;end
 
 RainbowGroupSprites:

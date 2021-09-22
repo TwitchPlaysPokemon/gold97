@@ -43,7 +43,7 @@ DoAnimFrame:
 	dw .MobileTradeSentPulse
 	dw .MobileTradeOTPulse
 	dw .Null ;.IntroSuicune
-	dw .Null ;.IntroPichuAnchorage
+	dw .Null ;.IntroPichuAngore
 	dw .Leafeon
 	dw .Null ;.IntroUnown
 	dw .Null ;.IntroUnownF

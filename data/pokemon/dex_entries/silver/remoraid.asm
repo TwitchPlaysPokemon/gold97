@@ -5,6 +5,6 @@
 	next "fin as a suction"
 	next "pad, it clings to"
 
-	page "a RAYLEEP's under-"
+	page "a MANTINE's under-"
 	next "side to scavenge"
 	next "for leftovers.@"

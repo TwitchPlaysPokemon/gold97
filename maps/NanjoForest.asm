@@ -78,18 +78,18 @@ NanjoForestSilverScript:
 	writetext NanjoForestSilverBefore
 	waitbutton
 	closetext
-	checkevent EVENT_GOT_CRUIZE_FROM_ELM
-	iftrue .Cruise
+	checkevent EVENT_GOT_PALSSIO_FROM_ELM
+	iftrue .Palssio
 	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
 	iftrue .CHIKORITA
 	winlosstext NanjoForestSilverTextWin, NanjoForestSilverTextLoss
-	loadtrainer RIVAL2, RIVAL2_1_CRUIZE
+	loadtrainer RIVAL2, RIVAL2_1_PALSSIO
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
 	jump .FinishBattle
 
-.Cruise:
+.Palssio:
 	winlosstext NanjoForestSilverTextWin, NanjoForestSilverTextLoss
 	loadtrainer RIVAL2, RIVAL2_1_CHIKORITA
 	startbattle
@@ -99,7 +99,7 @@ NanjoForestSilverScript:
 
 .CHIKORITA:
 	winlosstext NanjoForestSilverTextWin, NanjoForestSilverTextLoss
-	loadtrainer RIVAL2, RIVAL2_1_FLAMBEAR
+	loadtrainer RIVAL2, RIVAL2_1_CUBBURN
 	startbattle
 	dontrestartmapmusic
 	reloadmapafterbattle
