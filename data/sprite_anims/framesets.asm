@@ -53,16 +53,16 @@ SpriteAnimFrameData:
 	dw .Frameset_MobileTradeSentPulse
 	dw .Frameset_MobileTradeOTPulse
 	dw .Frameset_MobileTradePing
-	dw .Frameset_IntroSuicune
-	dw .Frameset_IntroSuicune2
-	dw .Frameset_IntroPichu
+	dw .Frameset_IntroSui
+	dw .Frameset_IntroSui2
+	dw .Frameset_IntroPichunk
 	dw .Frameset_IntroAngore
 	dw .Frameset_IntroUnown1
 	dw .Frameset_IntroUnown2
 	dw .Frameset_IntroUnown3
 	dw .Frameset_IntroUnown4
 	dw .Frameset_IntroUnownF2
-	dw .Frameset_IntroSuicuneAway
+	dw .Frameset_IntroSuiAway
 	dw .Frameset_IntroUnownF
 	dw .Frameset_LeafeonLeft
 	dw .Frameset_LeafeonRight
@@ -423,22 +423,22 @@ SpriteAnimFrameData:
 	frame SPRITE_ANIM_OAMSET_MOBILE_TRADE_PING_3,  2
 	delanim
 
-.Frameset_IntroSuicune:
-	frame SPRITE_ANIM_OAMSET_INTRO_SUICUNE_1,  3
-	frame SPRITE_ANIM_OAMSET_INTRO_SUICUNE_2,  3
-	frame SPRITE_ANIM_OAMSET_INTRO_SUICUNE_3,  3
-	frame SPRITE_ANIM_OAMSET_INTRO_SUICUNE_4,  3
+.Frameset_IntroSui:
+	frame SPRITE_ANIM_OAMSET_INTRO_SUI_1,  3
+	frame SPRITE_ANIM_OAMSET_INTRO_SUI_2,  3
+	frame SPRITE_ANIM_OAMSET_INTRO_SUI_3,  3
+	frame SPRITE_ANIM_OAMSET_INTRO_SUI_4,  3
 	dorestart
 
-.Frameset_IntroSuicune2:
-	frame SPRITE_ANIM_OAMSET_INTRO_SUICUNE_4,  3
-	frame SPRITE_ANIM_OAMSET_INTRO_SUICUNE_1,  7
+.Frameset_IntroSui2:
+	frame SPRITE_ANIM_OAMSET_INTRO_SUI_4,  3
+	frame SPRITE_ANIM_OAMSET_INTRO_SUI_1,  7
 	endanim
 
-.Frameset_IntroPichu:
-	frame SPRITE_ANIM_OAMSET_INTRO_PICHU_1, 32
-	frame SPRITE_ANIM_OAMSET_INTRO_PICHU_2,  7
-	frame SPRITE_ANIM_OAMSET_INTRO_PICHU_3,  7
+.Frameset_IntroPichunk:
+	frame SPRITE_ANIM_OAMSET_INTRO_PICHUNK_1, 32
+	frame SPRITE_ANIM_OAMSET_INTRO_PICHUNK_2,  7
+	frame SPRITE_ANIM_OAMSET_INTRO_PICHUNK_3,  7
 	endanim
 
 .Frameset_IntroAngore:
@@ -477,8 +477,8 @@ SpriteAnimFrameData:
 	frame SPRITE_ANIM_OAMSET_INTRO_UNOWN_F_2_5,  7
 	endanim
 
-.Frameset_IntroSuicuneAway:
-	frame SPRITE_ANIM_OAMSET_INTRO_SUICUNE_AWAY,  3
+.Frameset_IntroSuiAway:
+	frame SPRITE_ANIM_OAMSET_INTRO_SUI_AWAY,  3
 	endanim
 
 .Frameset_IntroUnownF:

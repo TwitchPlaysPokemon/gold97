@@ -6,5 +6,5 @@
 	next "the night sky,"
 
 	page "sightings of"
-	next "CLEFFA strangely"
+	next "CLEFFEY strangely"
 	next "increase.@"

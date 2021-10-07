@@ -34,20 +34,20 @@ SurgeScript:
 	;fallthrough
 	
 Surge_afterbattle:
-	checkevent EVENT_TOOK_THE_PICHU
-	iftrue Surge_afterpichu
+	checkevent EVENT_TOOK_THE_PICHUNK
+	iftrue Surge_afterpichunk
 	opentext
-	writetext SurgeTakeThisPichuText
+	writetext SurgeTakeThisPichunkText
 	waitbutton
 	checkcode VAR_PARTYCOUNT
 	ifequal PARTY_LENGTH, .PartyFullSurge
-	writetext SurgePlayerReceivedPichuText
+	writetext SurgePlayerReceivedPichunkText
 	playsound SFX_CAUGHT_MON
 	waitsfx
-	givepoke PICHU, 15
-	special GivePichu
-	setevent EVENT_TOOK_THE_PICHU
-	writetext SurgeExplainPichuMetronomeText
+	givepoke PICHUNK, 15
+	special GivePichunk
+	setevent EVENT_TOOK_THE_PICHUNK
+	writetext SurgeExplainPichunkMetronomeText
 	waitbutton
 	closetext
 	end
@@ -58,7 +58,7 @@ Surge_afterbattle:
 	closetext
 	end
 	
-Surge_afterpichu:
+Surge_afterpichunk:
 	opentext
 	writetext SurgeFinalText
 	waitbutton
@@ -100,7 +100,7 @@ Surge_beatentext:
 	cont "sure!"
 	done
 	
-SurgeTakeThisPichuText:
+SurgeTakeThisPichunkText:
 	text "So what gives?"
 	
 	para "There's nothing"
@@ -126,7 +126,7 @@ SurgeTakeThisPichuText:
 	cont "give, but maybe"
 	cont "you'd be a good"
 	cont "trainer for"
-	cont "this PICHU that"
+	cont "this PICHUNK that"
 	cont "I hatched!"
 	
 	para "I'm no good with"
@@ -134,8 +134,8 @@ SurgeTakeThisPichuText:
 	cont "good care of it!"
 	done
 
-SurgeExplainPichuMetronomeText:
-	text "That PICHU knows"
+SurgeExplainPichunkMetronomeText:
+	text "That PICHUNK knows"
 	line "a special move!"
 	
 	para "EGG hatched"
@@ -143,9 +143,9 @@ SurgeExplainPichuMetronomeText:
 	done
 
 
-SurgePlayerReceivedPichuText:
+SurgePlayerReceivedPichunkText:
 	text "<PLAYER> received"
-	line "PICHU!"
+	line "PICHUNK!"
 	done
 	
 SurgePartyFullText:

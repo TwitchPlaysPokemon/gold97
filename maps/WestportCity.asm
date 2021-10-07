@@ -135,7 +135,7 @@ WestportCityMonScript:
 	faceplayer
 	opentext
 	writetext WestportCityMonText
-	cry BLISSEY
+	cry JUBILEY
 	waitbutton
 	closetext
 	end
@@ -269,7 +269,7 @@ SilverHasItFiguredOut2:
 	done
 	
 WestportCityMonText:
-	text "BLISSEY: BIBI!"
+	text "JUBILEY: BIBI!"
 	done
 	
 WestportCityDocksSignText:
@@ -345,7 +345,7 @@ WestportCityYoungster2Text:
 	done
 
 WestportCityLassText:
-	text "My BLISSEY is able"
+	text "My JUBILEY is able"
 	line "to heal #MON"
 	cont "using a move!"
 	para "Some #MON have"

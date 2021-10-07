@@ -103,7 +103,7 @@ Music:
 	dba Music_LookMysticalMan
 	dba Music_CrystalOpening
 	dba Music_BattleTowerTheme
-	dba Music_SuicuneBattle
+	dba Music_SuiBattle
 	dba Music_BattleTowerLobby
 	dba Music_MobileCenter
 	dba Music_VsBlue

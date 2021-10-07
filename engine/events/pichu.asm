@@ -1,7 +1,7 @@
-GivePichu:
-; if wScriptVar is 0 or 1, change the moveset of the last Pichu in the party.
+GivePichunk:
+; if wScriptVar is 0 or 1, change the moveset of the last Pichunk in the party.
 ;  0: give it a special moveset with Extremespeed.
-;  1: give it the normal moveset of a level 15 Pichu.
+;  1: give it the normal moveset of a level 15 Pichunk.
 
 	ld a, [wScriptVar]
 	cp $2
@@ -13,10 +13,10 @@ GivePichu:
 	ld a, [bc]
 	ld c, a
 	ld de, PARTYMON_STRUCT_LENGTH
-.CheckForPichu:
-; start at the end of the party and search backwards for a Pichu
+.CheckForPichunk:
+; start at the end of the party and search backwards for a Pichunk
 	ld a, [hl]
-	cp PICHU
+	cp PICHUNK
 	jr z, .GiveMoveset
 	ld a, l
 	sub e
@@ -25,7 +25,7 @@ GivePichu:
 	sbc d
 	ld h, a
 	dec c
-	jr nz, .CheckForPichu
+	jr nz, .CheckForPichunk
 	ret
 
 .GiveMoveset:

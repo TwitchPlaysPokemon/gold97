@@ -244,7 +244,7 @@ Function170cc6:
 	push af
 	ld a, BANK(wDecompressScratch)
 	ldh [rSVBK], a
-	ld hl, PichuAnimatedMobileGFX
+	ld hl, PichunkAnimatedMobileGFX
 	ld de, wDecompressScratch
 	call Decompress
 	ld a, 1
@@ -277,8 +277,8 @@ Function170d02:
 	ldh [rVBK], a
 	ret
 
-PichuAnimatedMobileGFX:
-INCBIN "gfx/mobile/pichu_animated.2bpp.lz"
+PichunkAnimatedMobileGFX:
+INCBIN "gfx/mobile/pichunk_animated.2bpp.lz"
 
 ElectroBallMobileGFX:
 INCBIN "gfx/mobile/electro_ball.2bpp.lz"

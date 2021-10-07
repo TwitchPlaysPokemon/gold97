@@ -1,6 +1,6 @@
 	const_def 2 ; object constants
 	const ICEPATHB2FBLACKTHORNSIDE_POKE_BALL
-	const ICEPATHB2FBLACKTHORNSIDE_ENTEI
+	const ICEPATHB2FBLACKTHORNSIDE_EN
 
 MagmaShaft1F_MapScripts:
 	db 0 ; scene scripts
@@ -14,22 +14,22 @@ MagmaShaft1FHiddenIceHeal:
 	hiddenitem ICE_HEAL, EVENT_ICE_PATH_B2F_BLACKTHORN_SIDE_HIDDEN_ICE_HEAL
 	
 
-EnteiEvent:
+EnEvent:
 	faceplayer
 	opentext
-	writetext EnteiText
-	cry ENTEI
+	writetext EnText
+	cry EN
 	pause 15
 	closetext
 	setevent EVENT_RIVAL_AZALEA_TOWN
 	writecode VAR_BATTLETYPE, BATTLETYPE_ROAMING
-	loadwildmon ENTEI, 40
+	loadwildmon EN, 40
 	startbattle
-	disappear ICEPATHB2FBLACKTHORNSIDE_ENTEI
+	disappear ICEPATHB2FBLACKTHORNSIDE_EN
 	reloadmapafterbattle
 	end
 	
-EnteiText:
+EnText:
 	text "Groroa!"
 	done
 
@@ -49,4 +49,4 @@ MagmaShaft1F_MapEvents:
 
 	db 2 ; object events
 	object_event  2,  4, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, MagmaShaft1FTMRest, EVENT_ICE_PATH_B2F_BLACKTHORN_SIDE_TM_REST
-	object_event 16,  2, SPRITE_GROWLITHE, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EnteiEvent, EVENT_RIVAL_AZALEA_TOWN
+	object_event 16,  2, SPRITE_GROWLITHE, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, EnEvent, EVENT_RIVAL_AZALEA_TOWN

@@ -3,7 +3,7 @@
 
 	db   "Anyone who takes"
 	next "even one bite of"
-	next "BLISSEY's egg be-"
+	next "JUBILEY's egg be-"
 
 	page "comes unfailingly"
 	next "caring and pleas-"

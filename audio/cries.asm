@@ -16,10 +16,10 @@ Cry_Spinarak:
 	musicheader 1, 6, Cry_Spinarak_Ch6
 	musicheader 1, 8, Cry_Spinarak_Ch8
 
-Cry_Raikou:
-	musicheader 3, 5, Cry_Raikou_Ch5
-	musicheader 1, 6, Cry_Raikou_Ch6
-	musicheader 1, 8, Cry_Raikou_Ch8
+Cry_Rai:
+	musicheader 3, 5, Cry_Rai_Ch5
+	musicheader 1, 6, Cry_Rai_Ch6
+	musicheader 1, 8, Cry_Rai_Ch8
 
 Cry_Hoothoot:
 	musicheader 3, 5, Cry_Hoothoot_Ch5
@@ -53,10 +53,10 @@ Cry_Mimmeo:
 	musicheader 2, 5, Cry_Mimmeo_Ch5
 	musicheader 1, 8, Cry_Mimmeo_Ch8
 
-Cry_Girafarig:
-	musicheader 3, 5, Cry_Girafarig_Ch5
-	musicheader 1, 6, Cry_Girafarig_Ch6
-	musicheader 1, 8, Cry_Girafarig_Ch8
+Cry_Kirinirik:
+	musicheader 3, 5, Cry_Kirinirik_Ch5
+	musicheader 1, 6, Cry_Kirinirik_Ch6
+	musicheader 1, 8, Cry_Kirinirik_Ch8
 
 Cry_Coinpur:
 	musicheader 2, 5, Cry_Coinpur_Ch5
@@ -107,20 +107,20 @@ Cry_Palssio:
 	musicheader 1, 6, Cry_Palssio_Ch6
 	musicheader 1, 8, Cry_Palssio_Ch8
 
-Cry_Cleffa:
-	musicheader 3, 5, Cry_Cleffa_Ch5
-	musicheader 1, 6, Cry_Cleffa_Ch6
-	musicheader 1, 8, Cry_Cleffa_Ch8
+Cry_Cleffey:
+	musicheader 3, 5, Cry_Cleffey_Ch5
+	musicheader 1, 6, Cry_Cleffey_Ch6
+	musicheader 1, 8, Cry_Cleffey_Ch8
 
-Cry_Pichu:
-	musicheader 3, 5, Cry_Pichu_Ch5
-	musicheader 1, 6, Cry_Pichu_Ch6
-	musicheader 1, 8, Cry_Pichu_Ch8
+Cry_Pichunk:
+	musicheader 3, 5, Cry_Pichunk_Ch5
+	musicheader 1, 6, Cry_Pichunk_Ch6
+	musicheader 1, 8, Cry_Pichunk_Ch8
 
-Cry_Aipom:
-	musicheader 3, 5, Cry_Aipom_Ch5
-	musicheader 1, 6, Cry_Aipom_Ch6
-	musicheader 1, 8, Cry_Aipom_Ch8
+Cry_Primatail:
+	musicheader 3, 5, Cry_Primatail_Ch5
+	musicheader 1, 6, Cry_Primatail_Ch6
+	musicheader 1, 8, Cry_Primatail_Ch8
 
 Cry_Paraspor:
 	musicheader 3, 5, Cry_Paraspor_Ch5
@@ -132,17 +132,17 @@ Cry_Madame:
 	musicheader 1, 6, Cry_Madame_Ch6
 	musicheader 1, 8, Cry_Madame_Ch8
 
-Cry_Entei:
-	musicheader 3, 5, Cry_Entei_Ch5
-	musicheader 1, 6, Cry_Entei_Ch6
-	musicheader 1, 8, Cry_Entei_Ch8
+Cry_En:
+	musicheader 3, 5, Cry_En_Ch5
+	musicheader 1, 6, Cry_En_Ch6
+	musicheader 1, 8, Cry_En_Ch8
 
-Cry_Mantine:
-	musicheader 3, 5, Cry_Mantine_Ch5
-	musicheader 1, 6, Cry_Mantine_Ch6
-	musicheader 1, 8, Cry_Mantine_Ch8
+Cry_Rayleep:
+	musicheader 3, 5, Cry_Rayleep_Ch5
+	musicheader 1, 6, Cry_Rayleep_Ch6
+	musicheader 1, 8, Cry_Rayleep_Ch8
 
-Cry_Entei_Ch5:
+Cry_En_Ch5:
 	soundinput $ff
 	sound_duty 3, 0, 2, 1
 	sound __,  2, $f8, $05f8
@@ -152,7 +152,7 @@ Cry_Entei_Ch5:
 	soundinput $88
 	endchannel
 
-Cry_Entei_Ch6:
+Cry_En_Ch6:
 	sound_duty 3, 0, 3, 0
 	sound __,  2, $c8, $0640
 	sound __,  7, $ff, $0668
@@ -160,7 +160,7 @@ Cry_Entei_Ch6:
 	sound C_,  5, $a2, $04a4
 	endchannel
 
-Cry_Entei_Ch8:
+Cry_En_Ch8:
 	noise __, 11, $d6, $6a
 	noise __,  7, $bc, $6c
 	noise __,  7, $e2, $5c
@@ -254,7 +254,7 @@ Cry_Slowking_Ch8:
 	noise C_,  1, $b2, $6f
 	endchannel
 
-Cry_Pichu_Ch5:
+Cry_Pichunk_Ch5:
 	dutycycle $0
 	soundinput $f7
 	sound __,  3, $f8, $078d
@@ -268,7 +268,7 @@ Cry_Pichu_Ch5:
 	soundinput $88
 	endchannel
 
-Cry_Pichu_Ch6:
+Cry_Pichunk_Ch6:
 	sound_duty 0, 0, 1, 0
 	sound __,  3, $c8, $076d
 	sound __,  3, $c8, $0771
@@ -277,7 +277,7 @@ Cry_Pichu_Ch6:
 	sound __,  3, $c8, $0798
 	endchannel
 
-Cry_Pichu_Ch8:
+Cry_Pichunk_Ch8:
 	noise __,  3, $b8, $1
 	noise __,  3, $b8, $19
 	noise __,  3, $c8, $18
@@ -358,7 +358,7 @@ Cry_Spinarak_Ch8:
 	noise __,  7, $93, $0
 	endchannel
 
-Cry_Raikou_Ch5:
+Cry_Rai_Ch5:
 	sound_duty 0, 2, 3, 3
 	sound __,  3, $f1, $04b0
 	sound __,  3, $f7, $0590
@@ -369,7 +369,7 @@ Cry_Raikou_Ch5:
 	sound C_,  1, $f2, $0690
 	endchannel
 
-Cry_Raikou_Ch6:
+Cry_Rai_Ch6:
 	sound_duty 2, 0, 3, 3
 	sound __,  3, $f1, $0720
 	sound __,  3, $e1, $0650
@@ -381,7 +381,7 @@ Cry_Raikou_Ch6:
 	sound C_,  1, $e2, $06a0
 	endchannel
 
-Cry_Raikou_Ch8:
+Cry_Rai_Ch8:
 	noise __,  3, $89, $2e
 	noise __,  3, $99, $1f
 	noise __,  5, $89, $4e
@@ -496,14 +496,14 @@ Cry_Mimmeo_Ch5:
 	sound_duty 2, 0, 2, 2
 	jumpchannel Cry_Mimmeo_branch_f3145
 
-Cry_Girafarig_Ch5:
+Cry_Kirinirik_Ch5:
 	dutycycle $1
 	tone $0004
-	jumpchannel Cry_Girafarig_branch_f31af
+	jumpchannel Cry_Kirinirik_branch_f31af
 
-Cry_Girafarig_Ch6:
+Cry_Kirinirik_Ch6:
 	sound_duty 1, 0, 0, 1
-Cry_Girafarig_branch_f31af:
+Cry_Kirinirik_branch_f31af:
 	sound __,  5, $68, $0758
 	sound __,  3, $e8, $0760
 	sound __,  3, $e8, $0767
@@ -511,7 +511,7 @@ Cry_Girafarig_branch_f31af:
 	sound __,  8, $f1, $0767
 	endchannel
 
-Cry_Girafarig_Ch8:
+Cry_Kirinirik_Ch8:
 	noise __,  5, $29, $0
 	noise __,  3, $39, $1
 	noise __,  3, $49, $2
@@ -642,37 +642,37 @@ Cry_Bruinus_Ch8:
 
 Cry_Natu_Ch5:
 	sound_duty 2, 3, 1, 3
-Cry_Mantine_branch_f32e9:
+Cry_Rayleep_branch_f32e9:
 Cry_Sunflora_branch_f32e9:
 	sound __,  5, $f8, $07b1
 	sound __,  5, $f8, $07b0
 	sound __,  5, $48, $07af
-Cry_Mantine_branch_f32f5:
+Cry_Rayleep_branch_f32f5:
 	sound __,  5, $f8, $07b2
 	sound __,  5, $f8, $07b3
 	sound __,  5, $48, $07b4
 	endchannel
 
-Cry_Mantine_branch_f3302:
+Cry_Rayleep_branch_f3302:
 Cry_Natu_Ch6:
 Cry_Sunflora_Ch6:
 	sound_duty 2, 0, 3, 3
 	sound __,  5, $f8, $07b2
 	sound __,  5, $f8, $07b1
 	sound __,  5, $28, $07b0
-Cry_Mantine_branch_f3310:
+Cry_Rayleep_branch_f3310:
 	sound __,  5, $f8, $07b4
 	sound __,  5, $f8, $07b6
 	sound __,  5, $48, $07b8
 	endchannel
 
-Cry_Mantine_branch_f331d:
+Cry_Rayleep_branch_f331d:
 Cry_Natu_Ch8:
 Cry_Sunflora_Ch8:
 	noise __,  5, $88, $5
 	noise __,  5, $88, $4
 	noise __,  5, $38, $3
-Cry_Mantine_branch_f3326:
+Cry_Rayleep_branch_f3326:
 	noise __,  5, $88, $5
 	noise __,  5, $88, $4
 	noise __,  5, $87, $4
@@ -687,20 +687,20 @@ Cry_Sunflora_Ch5:
 	dutycycle $0
 	jumpchannel Cry_Sunflora_branch_f32e9
 
-Cry_Mantine_Ch5:
+Cry_Rayleep_Ch5:
 	dutycycle $0
-	callchannel Cry_Mantine_branch_f32e9
-	callchannel Cry_Mantine_branch_f32f5
+	callchannel Cry_Rayleep_branch_f32e9
+	callchannel Cry_Rayleep_branch_f32f5
 	endchannel
 
-Cry_Mantine_Ch6:
-	callchannel Cry_Mantine_branch_f3302
-	callchannel Cry_Mantine_branch_f3310
+Cry_Rayleep_Ch6:
+	callchannel Cry_Rayleep_branch_f3302
+	callchannel Cry_Rayleep_branch_f3310
 	endchannel
 
-Cry_Mantine_Ch8:
-	callchannel Cry_Mantine_branch_f331d
-	callchannel Cry_Mantine_branch_f3326
+Cry_Rayleep_Ch8:
+	callchannel Cry_Rayleep_branch_f331d
+	callchannel Cry_Rayleep_branch_f3326
 	endchannel
 
 Cry_Ampharos_Ch5:
@@ -758,7 +758,7 @@ Cry_Palssio_Ch8:
 	noise C#,  9, $d3, $6e
 	endchannel
 
-Cry_Cleffa_Ch5:
+Cry_Cleffey_Ch5:
 	sound_duty 1, 2, 3, 0
 	soundinput $ff
 	sound __,  3, $f8, $0720
@@ -773,7 +773,7 @@ Cry_Cleffa_Ch5:
 	soundinput $88
 	endchannel
 
-Cry_Cleffa_Ch6:
+Cry_Cleffey_Ch6:
 	sound_duty 2, 0, 2, 0
 	sound __,  7, $b2, $071e
 	sound __,  6, $92, $0779
@@ -781,7 +781,7 @@ Cry_Cleffa_Ch6:
 	sound __,  9, $a1, $0735
 	endchannel
 
-Cry_Cleffa_Ch8:
+Cry_Cleffey_Ch8:
 	noise __,  3, $64, $7f
 	noise __,  3, $84, $7d
 	noise __,  3, $a4, $6f
@@ -790,7 +790,7 @@ Cry_Cleffa_Ch8:
 	noise __,  3, $61, $6b
 	endchannel
 
-Cry_Aipom_Ch5:
+Cry_Primatail_Ch5:
 	sound_duty 2, 0, 1, 3
 	sound __,  4, $f8, $06b0
 	sound __,  2, $f8, $06a5
@@ -801,7 +801,7 @@ Cry_Aipom_Ch5:
 	sound C_,  5, $f2, $070e
 	endchannel
 
-Cry_Aipom_Ch6:
+Cry_Primatail_Ch6:
 	sound_duty 3, 1, 2, 0
 .loop1
 	sound __,  2, $f1, $07b4
@@ -815,9 +815,9 @@ Cry_Aipom_Ch6:
 	sound C_,  1, $92, $0795
 	endchannel
 
-Cry_Aipom_Ch8:
+Cry_Primatail_Ch8:
 	noise __,  1, $f1, $28
-	loopchannel 4, Cry_Aipom_Ch8
+	loopchannel 4, Cry_Primatail_Ch8
 	noise __,  1, $91, $49
 	noise __,  2, $a8, $4a
 	noise __,  1, $e1, $4b

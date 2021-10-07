@@ -48,7 +48,7 @@ Fixes are written in the `diff` format. If you're familiar with git, this should
 - [Slot machine payout sound effects cut each other off](#slot-machine-payout-sound-effects-cut-each-other-off)
 - [Team Rocket battle music is not used for Executives or Scientists](#team-rocket-battle-music-is-not-used-for-executives-or-scientists)
 - [No bump noise if standing on tile `$3E`](#no-bump-noise-if-standing-on-tile-3e)
-- [Playing Entei's Pokédex cry can distort Raikou's and Suicune's](#playing-enteis-pokédex-cry-can-distort-raikous-and-suicunes)
+- [Playing En's Pokédex cry can distort Rai's and Sui's](#playing-ens-pokédex-cry-can-distort-rais-and-suis)
 - [In-battle “`…`” ellipsis is too high](#in-battle--ellipsis-is-too-high)
 - [Two tiles in the `port` tileset are drawn incorrectly](#two-tiles-in-the-port-tileset-are-drawn-incorrectly)
 - [`LoadMetatiles` wraps around past 128 blocks](#loadmetatiles-wraps-around-past-128-blocks)
@@ -1130,7 +1130,7 @@ Finally, edit [engine/battle/read_trainer_party.asm](/engine/battle/read_trainer
 ```
 
 
-## Playing Entei's Pokédex cry can distort Raikou's and Suicune's
+## Playing En's Pokédex cry can distort Rai's and Sui's
 
 ([Video](https://www.youtube.com/watch?v=z305e4sIO24))
 

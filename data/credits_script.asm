@@ -16,7 +16,7 @@ CreditsScript:
 	db CREDITS_WAIT, 1
 
 ; Update the banner.
-	db CREDITS_SCENE, 0 ; Pichu
+	db CREDITS_SCENE, 0 ; Pichunk
 
 	db             DIRECTOR, 1
 	db       SATOSHI_TAJIRI, 2
@@ -89,7 +89,7 @@ CreditsScript:
 	db CREDITS_WAIT, 1
 
 ; Update the banner.
-	db CREDITS_SCENE, 1 ; Smoochum
+	db CREDITS_SCENE, 1 ; Besito
 
 
 	db      GRAPHICS_DESIGN, 0

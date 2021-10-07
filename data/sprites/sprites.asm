@@ -106,9 +106,9 @@ OverworldSprites:
 	overworld_sprite KrisSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite KrisBikeSpriteGFX, 12, WALKING_SPRITE, PAL_OW_BLUE
 	overworld_sprite KurtOutsideSpriteGFX, 12, STANDING_SPRITE, PAL_OW_BROWN
-	overworld_sprite SuicuneSpriteGFX, 4, STILL_SPRITE, PAL_OW_BLUE
-	overworld_sprite EnteiSpriteGFX, 4, STILL_SPRITE, PAL_OW_RED
-	overworld_sprite RaikouSpriteGFX, 4, STILL_SPRITE, PAL_OW_RED
+	overworld_sprite SuiSpriteGFX, 4, STILL_SPRITE, PAL_OW_BLUE
+	overworld_sprite EnSpriteGFX, 4, STILL_SPRITE, PAL_OW_RED
+	overworld_sprite RaiSpriteGFX, 4, STILL_SPRITE, PAL_OW_RED
 	overworld_sprite StandingYoungsterSpriteGFX, 12, STANDING_SPRITE, PAL_OW_BLUE
 	overworld_sprite OldAmberSpriteGFX, 4, STILL_SPRITE, PAL_OW_BROWN
 	overworld_sprite SurgeNewSpriteGFX, 12, WALKING_SPRITE, PAL_OW_GREEN

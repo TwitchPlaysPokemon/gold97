@@ -3696,7 +3696,7 @@ TryToRunAwayFromBattle:
 	jp z, .cant_escape
 	cp BATTLETYPE_SHINY
 	jp z, .cant_escape
-	cp BATTLETYPE_SUICUNE
+	cp BATTLETYPE_SUI
 	jp z, .cant_escape
 
 	ld a, [wLinkMode]
@@ -6011,7 +6011,7 @@ LoadEnemyMon:
 ; In a wild battle, we pull from the item slots in BaseData
 
 ; Force Item1
-; Used for Ho-Oh, Blissey and Snorlax encounters
+; Used for Ho-Oh, Jubiley and Snorlax encounters
 	ld a, [wBattleType]
 	cp BATTLETYPE_FORCEITEM
 	ld a, [wBaseItem1]
@@ -6074,7 +6074,7 @@ LoadEnemyMon:
 ; Wild DVs
 ; Here's where the fun starts
 
-; Roaming monsters (Entei, Raikou) work differently
+; Roaming monsters (En, Rai) work differently
 ; They have their own structs, which are shorter than normal
 	ld a, [wBattleType]
 	cp BATTLETYPE_ROAMING
@@ -6298,7 +6298,7 @@ LoadEnemyMon:
 
 .InitRoamHP:
 ; HP only uses the lo byte in the RoamMon struct since
-; Raikou and Entei will have < 256 hp at level 40
+; Rai and En will have < 256 hp at level 40
 	ld a, [wEnemyMonHP + 1]
 	ld [hl], a
 	jr .Moves

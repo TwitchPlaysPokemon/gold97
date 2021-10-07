@@ -108,12 +108,12 @@ gfx/pokemon/lugia/frames.asm: gfx/pokemon/lugia/front.animated.tilemap gfx/pokem
 	tools/pokemon_animation -f $^ > $@
 	echo "	db \$$5e, \$$59" >> $@
 
-# Girafarig has a redundant tile after the end. It is used in two frames, so it must be injected into the generated graphics.
+# Kirinirik has a redundant tile after the end. It is used in two frames, so it must be injected into the generated graphics.
 # This is more involved, so it's hacked into pokemon_animation_graphics.
-gfx/pokemon/girafarig/front.animated.2bpp: gfx/pokemon/girafarig/front.2bpp gfx/pokemon/girafarig/front.dimensions
-	tools/pokemon_animation_graphics --girafarig -o $@ $^
-gfx/pokemon/girafarig/front.animated.tilemap: gfx/pokemon/girafarig/front.2bpp gfx/pokemon/girafarig/front.dimensions
-	tools/pokemon_animation_graphics --girafarig -t $@ $^
+gfx/pokemon/kirinirik/front.animated.2bpp: gfx/pokemon/kirinirik/front.2bpp gfx/pokemon/kirinirik/front.dimensions
+	tools/pokemon_animation_graphics --kirinirik -o $@ $^
+gfx/pokemon/kirinirik/front.animated.tilemap: gfx/pokemon/kirinirik/front.2bpp gfx/pokemon/kirinirik/front.dimensions
+	tools/pokemon_animation_graphics --kirinirik -t $@ $^
 
 
 ### Pokemon pic graphics rules
@@ -226,7 +226,7 @@ gfx/mobile/electro_ball.2bpp: tools/gfx += --trim-whitespace
 gfx/mobile/electro_ball_nonmatching.2bpp: tools/gfx += --remove-duplicates --remove-xflip
 gfx/mobile/mobile_adapter.2bpp: tools/gfx += --trim-whitespace
 gfx/mobile/mobile_splash.2bpp: tools/gfx += --remove-duplicates --remove-xflip
-gfx/mobile/pichu_animated.2bpp: tools/gfx += --trim-whitespace
+gfx/mobile/pichunk_animated.2bpp: tools/gfx += --trim-whitespace
 
 gfx/unknown/unknown_egg.2bpp: rgbgfx += -h
 

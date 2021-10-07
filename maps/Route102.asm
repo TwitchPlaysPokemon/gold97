@@ -293,7 +293,7 @@ FloriaMovement2:
 	step LEFT
 	step_end
 
-Route102SuicuneMovement:
+Route102SuiMovement:
 	set_sliding
 	fast_jump_step DOWN
 	fast_jump_step DOWN

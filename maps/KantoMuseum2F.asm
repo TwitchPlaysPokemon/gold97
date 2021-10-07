@@ -52,7 +52,7 @@ MuseumKidText:
 	cont "you a PIKACHU"
 	cont "then I can at"
 	cont "least have a"
-	cont "PICHU!"
+	cont "PICHUNK!"
 	done
 
 

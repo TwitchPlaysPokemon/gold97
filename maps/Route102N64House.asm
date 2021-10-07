@@ -48,7 +48,7 @@ N64HouseScientistScript:
 	end
 	
 .N643PeopleTimeForStarter3
-	checkevent EVENT_TIN_TOWER_1F_ENTEI
+	checkevent EVENT_TIN_TOWER_1F_EN
 	iftrue .AlreadyGotStarter3
 	writetext N64HouseScientistText5
 	waitbutton
@@ -64,7 +64,7 @@ N64HouseScientistScript:
 	writetext TakeGoodCareOfStarter3
 	waitbutton
 	closetext
-	setevent EVENT_TIN_TOWER_1F_ENTEI
+	setevent EVENT_TIN_TOWER_1F_EN
 	end
 	
 .HaveCHIKORITAGivePalssio
@@ -76,7 +76,7 @@ N64HouseScientistScript:
 	writetext TakeGoodCareOfStarter3
 	waitbutton
 	closetext
-	setevent EVENT_TIN_TOWER_1F_ENTEI
+	setevent EVENT_TIN_TOWER_1F_EN
 	end
 	
 .HavePalssioGiveCubburn
@@ -88,7 +88,7 @@ N64HouseScientistScript:
 	writetext TakeGoodCareOfStarter3
 	waitbutton
 	closetext
-	setevent EVENT_TIN_TOWER_1F_ENTEI
+	setevent EVENT_TIN_TOWER_1F_EN
 	end
 	
 .AlreadyGotStarter3

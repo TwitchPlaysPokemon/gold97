@@ -202,7 +202,7 @@ WestportDeptStore5FLassText:
 	cont "POLIWHIRL."
 	para "But I also could"
 	line "have evolved it"
-	cont "into POLITOED."
+	cont "into POLIRANA."
 	done
 
 WestportDeptStore5FPoliText:

@@ -1,4 +1,4 @@
-	db JUMPLUFF ; 189
+	db WATANEKO ; 189
 
 	db  75,  55,  70, 110,  55,  85
 	;   hp  atk  def  spd  sat  sdf
@@ -11,7 +11,7 @@
 	db 100 ; unknown 1
 	db 20 ; step cycles to hatch
 	db 5 ; unknown 2
-	INCBIN "gfx/pokemon/jumpluff/front.dimensions"
+	INCBIN "gfx/pokemon/wataneko/front.dimensions"
 	db 0, 0, 0, 0 ; padding
 	db GROWTH_MEDIUM_SLOW ; growth rate
 	dn EGG_FAIRY, EGG_PLANT ; egg groups

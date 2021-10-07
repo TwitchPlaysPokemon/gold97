@@ -78,7 +78,7 @@ SanskritRocketHouseOfficerScript:
 	faceplayer
 	opentext
 	writetext SanskritRocketHouseOfficerText
-	cry MURKROW
+	cry MAGIKROW
 	waitbutton
 	closetext
 	end
@@ -160,7 +160,7 @@ SanskritRocketHouseReceptionistText:
 	done
 
 SanskritRocketHouseOfficerText:
-	text "MURKROW: KRAWW!"
+	text "MAGIKROW: KRAWW!"
 	done
 
 SanskritRocketHouseSuperNerd1Text:

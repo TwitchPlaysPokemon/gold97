@@ -4860,7 +4860,7 @@ BattleCommand_ForceSwitch:
 	jp z, .fail
 	cp BATTLETYPE_LEAFEON
 	jp z, .fail
-	cp BATTLETYPE_SUICUNE
+	cp BATTLETYPE_SUI
 	jp z, .fail
 	ldh a, [hBattleTurn]
 	and a

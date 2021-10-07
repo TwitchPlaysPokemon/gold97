@@ -371,7 +371,7 @@ RadioTower6FDirectorsOfficeSignText:
 	
 RadioTower6FClefableText:
 	text "CLEFABLE:"
-	line "Cleffa-fa!"
+	line "Cleffey-fa!"
 	done
 
 RadioTower6fTeacherText:

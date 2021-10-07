@@ -196,12 +196,12 @@ SFX:
 	dba Sfx_IntroUnown3
 	dba Sfx_DittoPopUp
 	dba Sfx_DittoTransform
-	dba Sfx_IntroSuicune1
-	dba Sfx_IntroPichu
-	dba Sfx_IntroSuicune2
-	dba Sfx_IntroSuicune3
+	dba Sfx_IntroSui1
+	dba Sfx_IntroPichunk
+	dba Sfx_IntroSui2
+	dba Sfx_IntroSui3
 	dba Sfx_DittoBounce
-	dba Sfx_IntroSuicune4
+	dba Sfx_IntroSui4
 	dba Sfx_GameFreakPresents
 	dba Sfx_Tingle
 	dba Sfx_IntroWhoosh

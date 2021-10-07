@@ -56,18 +56,18 @@ Sfx_DittoTransform_Ch5:
 	sound __,  5, $42, $04c2
 	endchannel
 
-Sfx_IntroSuicune1:
-	musicheader 1, 8, Sfx_IntroSuicune1_Ch8
+Sfx_IntroSui1:
+	musicheader 1, 8, Sfx_IntroSui1_Ch8
 
-Sfx_IntroSuicune1_Ch8:
+Sfx_IntroSui1_Ch8:
 	noise __,  2, $58, $59
 	noise __,  3, $91, $23
 	endchannel
 
-Sfx_IntroPichu:
-	musicheader 1, 5, Sfx_IntroPichu_Ch5
+Sfx_IntroPichunk:
+	musicheader 1, 5, Sfx_IntroPichunk_Ch5
 
-Sfx_IntroPichu_Ch5:
+Sfx_IntroPichunk_Ch5:
 	dutycycle $3
 	soundinput $4d
 	sound __,  2, $88, $0770
@@ -76,10 +76,10 @@ Sfx_IntroPichu_Ch5:
 	sound __,  3, $88, $0776
 	endchannel
 
-Sfx_IntroSuicune2:
-	musicheader 1, 8, Sfx_IntroSuicune2_Ch8
+Sfx_IntroSui2:
+	musicheader 1, 8, Sfx_IntroSui2_Ch8
 
-Sfx_IntroSuicune2_Ch8:
+Sfx_IntroSui2_Ch8:
 	noise __,  2, $a7, $31
 	noise __,  2, $91, $0
 	noise __,  2, $92, $21
@@ -98,10 +98,10 @@ Sfx_IntroSuicune2_Ch8:
 	noise __,  2, $13, $10
 	endchannel
 
-Sfx_IntroSuicune3:
-	musicheader 1, 8, Sfx_IntroSuicune3_Ch8
+Sfx_IntroSui3:
+	musicheader 1, 8, Sfx_IntroSui3_Ch8
 
-Sfx_IntroSuicune3_Ch8:
+Sfx_IntroSui3_Ch8:
 	noise __,  2, $88, $31
 	noise __,  9, $39, $11
 	noise __,  5, $a4, $10
@@ -121,10 +121,10 @@ Sfx_DittoBounce_Ch5:
 	sound C_,  1, $b1, $0420
 	endchannel
 
-Sfx_IntroSuicune4:
-	musicheader 1, 8, Sfx_IntroSuicune4_Ch8
+Sfx_IntroSui4:
+	musicheader 1, 8, Sfx_IntroSui4_Ch8
 
-Sfx_IntroSuicune4_Ch8:
+Sfx_IntroSui4_Ch8:
 	noise __,  2, $a1, $5c
 	noise __,  1, $0, $0
 	noise __,  2, $c1, $4d

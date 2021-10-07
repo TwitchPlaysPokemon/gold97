@@ -7,4 +7,4 @@
 
 	page "sleepy, it steals"
 	next "the nest of a fel-"
-	next "low OCTILLERY.@"
+	next "low OCTOTANK.@"
