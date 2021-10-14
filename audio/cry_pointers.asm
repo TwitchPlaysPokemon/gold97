@@ -40,8 +40,8 @@ Cries:
 	dba Cry_Marill
 	dba Cry_Spinarak
 	dba Cry_Togepi
-	dba Cry_Girafarig
-	dba Cry_Raikou
+	dba Cry_Kirinirik
+	dba Cry_Rai
 	dba Cry_Mareep
 	dba Cry_Kolta
 	dba Cry_Hoothoot
@@ -51,19 +51,19 @@ Cries:
 	dba Cry_CHIKORITA
 	dba Cry_Palssio
 	dba Cry_Mimmeo
-	dba Cry_Cleffa
+	dba Cry_Cleffey
 	dba Cry_Coinpur
 	dba Cry_Ledyba
-	dba Cry_Entei
+	dba Cry_En
 	dba Cry_Angore
-	dba Cry_Mantine
+	dba Cry_Rayleep
 	dba Cry_Bruinus
 	dba Cry_Natu
 	dba Cry_Qwilfish
 	dba Cry_Sunflora
 	dba Cry_Ampharos
 	dba Cry_Madame
-	dba Cry_Pichu
-	dba Cry_Aipom
+	dba Cry_Pichunk
+	dba Cry_Primatail
 	dba Cry_Paraspor
 	dba Cry_Donphan

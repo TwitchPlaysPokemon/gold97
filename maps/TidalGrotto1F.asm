@@ -1,27 +1,27 @@
 	const_def 2 ; object constants
-	const WHIRLISLAND_SUICUNE
+	const WHIRLISLAND_SUI
 
 TidalGrotto1F_MapScripts:
 	db 0 ; scene scripts
 
 	db 0 ; callbacks
 	
-SuicuneEvent:
+SuiEvent:
 	faceplayer
 	opentext
-	writetext SuicuneText
-	cry SUICUNE
+	writetext SuiText
+	cry SUI
 	pause 15
 	closetext
 	setevent EVENT_RIVAL_TEAM_ROCKET_BASE
 	writecode VAR_BATTLETYPE, BATTLETYPE_ROAMING
-	loadwildmon SUICUNE, 40
+	loadwildmon SUI, 40
 	startbattle
-	disappear WHIRLISLAND_SUICUNE
+	disappear WHIRLISLAND_SUI
 	reloadmapafterbattle
 	end
 
-SuicuneText:
+SuiText:
 	text "Groroa!"
 	done
 	
@@ -83,4 +83,4 @@ TidalGrotto1F_MapEvents:
 	db 0 ; bg events
 
 	db 1 ; object events
-	object_event 19, 24, SPRITE_GROWLITHE, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SuicuneEvent, EVENT_RIVAL_TEAM_ROCKET_BASE
+	object_event 19, 24, SPRITE_GROWLITHE, SPRITEMOVEDATA_POKEMON, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, SuiEvent, EVENT_RIVAL_TEAM_ROCKET_BASE

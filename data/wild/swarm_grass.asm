@@ -8,7 +8,7 @@ SwarmGrassWildMons:
 	; morn
 	db 15, PARAS
 	db 15, EEVEE
-	db 14, HOPPIP
+	db 14, HANEKO
 	db 15, DROWZEE
 	db 15, DITTO
 	db 14, PIKACHU
@@ -16,7 +16,7 @@ SwarmGrassWildMons:
 	; day
 	db 15, PARAS
 	db 15, EEVEE
-	db 14, HOPPIP
+	db 14, HANEKO
 	db 15, DROWZEE
 	db 15, DITTO
 	db 14, PIKACHU
@@ -24,7 +24,7 @@ SwarmGrassWildMons:
 	; nite
 	db 15, PARAS
 	db 15, EEVEE
-	db 14, HOPPIP
+	db 14, HANEKO
 	db 15, DROWZEE
 	db 15, DITTO
 	db 14, PIKACHU

@@ -494,9 +494,9 @@ InitRoamMons:
 ; initialize wRoamMon structs
 
 ; species
-	ld a, RAIKOU
+	ld a, RAI
 	ld [wRoamMon1Species], a
-	ld a, ENTEI
+	ld a, EN
 	ld [wRoamMon2Species], a
 
 ; level
@@ -504,13 +504,13 @@ InitRoamMons:
 	ld [wRoamMon1Level], a
 	ld [wRoamMon2Level], a
 
-; raikou starting map
+; rai starting map
 	ld a, GROUP_ROUTE_111
 	ld [wRoamMon1MapGroup], a
 	ld a, MAP_ROUTE_111
 	ld [wRoamMon1MapNumber], a
 
-; entei starting map
+; en starting map
 	ld a, GROUP_SILENT_HILLS
 	ld [wRoamMon2MapGroup], a
 	ld a, MAP_SILENT_HILLS
@@ -536,7 +536,7 @@ CheckEncounterRoamMon:
 	jr nc, .DontEncounterRoamMon
 	and %00000011 ; Of that, a 3/4 chance.  Running total: 75/256, or around 29.3%.
 	jr z, .DontEncounterRoamMon
-	dec a ; 1/3 chance that it's Entei, 1/3 chance that it's Raikou
+	dec a ; 1/3 chance that it's En, 1/3 chance that it's Rai
 ; Compare its current location with yours
 	ld hl, wRoamMon1MapGroup
 	ld c, a
@@ -573,7 +573,7 @@ CheckEncounterRoamMon:
 UpdateRoamMons:
 	ld a, [wRoamMon1MapGroup]
 	cp GROUP_N_A
-	jr z, .SkipRaikou
+	jr z, .SkipRai
 	ld b, a
 	ld a, [wRoamMon1MapNumber]
 	ld c, a
@@ -583,10 +583,10 @@ UpdateRoamMons:
 	ld a, c
 	ld [wRoamMon1MapNumber], a
 
-.SkipRaikou:
+.SkipRai:
 	ld a, [wRoamMon2MapGroup]
 	cp GROUP_N_A
-	jr z, .SkipEntei
+	jr z, .SkipEn
 	ld b, a
 	ld a, [wRoamMon2MapNumber]
 	ld c, a
@@ -596,7 +596,7 @@ UpdateRoamMons:
 	ld a, c
 	ld [wRoamMon2MapNumber], a
 
-.SkipEntei:
+.SkipEn:
 	ld a, [wRoamMon3MapGroup]
 	cp GROUP_N_A
 	jr z, .Finished
@@ -672,24 +672,24 @@ UpdateRoamMons:
 JumpRoamMons:
 	ld a, [wRoamMon1MapGroup]
 	cp GROUP_N_A
-	jr z, .SkipRaikou
+	jr z, .SkipRai
 	call JumpRoamMon
 	ld a, b
 	ld [wRoamMon1MapGroup], a
 	ld a, c
 	ld [wRoamMon1MapNumber], a
 
-.SkipRaikou:
+.SkipRai:
 	ld a, [wRoamMon2MapGroup]
 	cp GROUP_N_A
-	jr z, .SkipEntei
+	jr z, .SkipEn
 	call JumpRoamMon
 	ld a, b
 	ld [wRoamMon2MapGroup], a
 	ld a, c
 	ld [wRoamMon2MapNumber], a
 
-.SkipEntei:
+.SkipEn:
 	ld a, [wRoamMon3MapGroup]
 	cp GROUP_N_A
 	jr z, .Finished

@@ -42,12 +42,12 @@ DoAnimFrame:
 	dw .EZChatCursor
 	dw .MobileTradeSentPulse
 	dw .MobileTradeOTPulse
-	dw .Null ;.IntroSuicune
-	dw .Null ;.IntroPichuAngore
+	dw .Null ;.IntroSui
+	dw .Null ;.IntroPichunkAngore
 	dw .Leafeon
 	dw .Null ;.IntroUnown
 	dw .Null ;.IntroUnownF
-	dw .Null ;.IntroSuicuneAway
+	dw .Null ;.IntroSuiAway
 	dw .TitleFlame
 
 	dw .AnimSeq_GSIntroFireball

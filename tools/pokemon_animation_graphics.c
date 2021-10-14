@@ -12,7 +12,7 @@ static void usage(void) {
 }
 
 struct Options {
-	int girafarig;
+	int kirinirik;
 };
 
 struct Options Options = {0};
@@ -128,7 +128,7 @@ void create_tilemap(struct Tilemap* tilemap, struct Graphic* graphic, char* grap
 	for (i = num_tiles; i < tilemap_size; i++) {
 		int preferred = i % num_tiles_per_frame;
 		int index = get_tile_index(graphics + i * tile_size, graphics, i, preferred);
-		if (Options.girafarig && index == 0) {
+		if (Options.kirinirik && index == 0) {
 			tile = num_tiles;
 		} else if (index == -1) {
 			tile = num_tiles++;
@@ -140,7 +140,7 @@ void create_tilemap(struct Tilemap* tilemap, struct Graphic* graphic, char* grap
 	}
 
 	int graphic_size = tilemap->size * 16;
-	if (Options.girafarig) {
+	if (Options.kirinirik) {
 		// This is probably not needed, but just in case...
 		graphic_size += 16;
 	}
@@ -155,7 +155,7 @@ void create_tilemap(struct Tilemap* tilemap, struct Graphic* graphic, char* grap
 			graphic->size += 16;
 		}
 	}
-	if (Options.girafarig) {
+	if (Options.kirinirik) {
 		// Add a duplicate of tile 0 to the end.
 		memcpy(graphic->data + graphic->size, graphics, 16);
 		graphic->size += 16;
@@ -178,7 +178,7 @@ int main(int argc, char* argv[]) {
 
 	while (1) {
 		struct option long_options[] = {
-			{"girafarig", no_argument, &Options.girafarig, 1},
+			{"kirinirik", no_argument, &Options.kirinirik, 1},
 			{"tilemap", required_argument, 0, 't'},
 			{"output", required_argument, 0, 'o'},
 			{0}

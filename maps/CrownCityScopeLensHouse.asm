@@ -1,5 +1,5 @@
 	const_def 2 ; object constants
-	const CIANWOOD_BLISSEY_SPEECH_HOUSE_GRANNY
+	const CIANWOOD_JUBILEY_SPEECH_HOUSE_GRANNY
 
 CrownCityScopeLensHouse_MapScripts:
 	db 0 ; scene scripts

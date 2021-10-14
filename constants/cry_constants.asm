@@ -45,8 +45,8 @@
 	const CRY_MARILL
 	const CRY_SPINARAK
 	const CRY_TOGEPI
-	const CRY_GIRAFARIG
-	const CRY_RAIKOU
+	const CRY_KIRINIRIK
+	const CRY_RAI
 	const CRY_MAREEP
 	const CRY_KOLTA
 	const CRY_HOOTHOOT
@@ -56,19 +56,19 @@
 	const CRY_CHIKORITA
 	const CRY_PALSSIO
 	const CRY_MIMMEO
-	const CRY_CLEFFA
+	const CRY_CLEFFEY
 	const CRY_COINPUR
 	const CRY_LEDYBA
-	const CRY_ENTEI
+	const CRY_EN
 	const CRY_ANGORE
-	const CRY_MANTINE
+	const CRY_RAYLEEP
 	const CRY_BRUINUS
 	const CRY_NATU
 	const CRY_QWILFISH
 	const CRY_SUNFLORA
 	const CRY_AMPHAROS
 	const CRY_MADAME
-	const CRY_PICHU
-	const CRY_AIPOM
+	const CRY_PICHUNK
+	const CRY_PRIMATAIL
 	const CRY_PARASPOR
 	const CRY_DONPHAN

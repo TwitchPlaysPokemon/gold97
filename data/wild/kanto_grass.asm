@@ -22,9 +22,9 @@ KantoGrassWildMons:
 	db 48, DODRIO
 	; nite
 	db 44, GOLDUCK
-	db 45, MURKROW
-	db 45, NOCTOWL
-	db 48, NOCTOWL
+	db 45, MAGIKROW
+	db 45, BOOTBOOT
+	db 48, BOOTBOOT
 	db 44, RAPIDASH
 	db 46, QUAGSIRE
 	db 48, QUAGSIRE
@@ -106,10 +106,10 @@ KantoGrassWildMons:
 	db 46, QUAGSIRE
 	db 48, EXEGGCUTE
 	db 50, NIDORINO
-	db 50, GIRAFARIG
+	db 50, KIRINIRIK
 	db 52, QUAGSIRE
-	db 50, NOCTOWL
-	db 50, NOCTOWL
+	db 50, BOOTBOOT
+	db 50, BOOTBOOT
 	
 	ELIF DEF(_SILVER)
 	; morn
@@ -132,10 +132,10 @@ KantoGrassWildMons:
 	db 46, QUAGSIRE
 	db 48, EXEGGCUTE
 	db 50, NIDORINO
-	db 50, GIRAFARIG
+	db 50, KIRINIRIK
 	db 52, QUAGSIRE
-	db 50, NOCTOWL
-	db 50, NOCTOWL
+	db 50, BOOTBOOT
+	db 50, BOOTBOOT
 	ENDC
 	
 	map_id URASOE_PARK
@@ -159,7 +159,7 @@ KantoGrassWildMons:
 	; nite
 	db 49, EXEGGCUTE
 	db 48, NIDORINA
-	db 50, ARIADOS
+	db 50, TUHEDD
 	db 48, PINSIR
 	db 48, SCYTHER
 	db 48, CHANSEY
@@ -201,24 +201,24 @@ KantoGrassWildMons:
 	db 54, PIDGEOT
 	db 53, MADAME
 	db 52, RATICATE
-	db 53, JUMPLUFF
-	db 53, JUMPLUFF
+	db 53, WATANEKO
+	db 53, WATANEKO
 	; day
 	db 52, PIDGEOTTO
 	db 53, GROWLITHE
 	db 54, PIDGEOT
 	db 53, MADAME
 	db 52, RATICATE
-	db 53, JUMPLUFF
-	db 53, JUMPLUFF
+	db 53, WATANEKO
+	db 53, WATANEKO
 	; nite
-	db 52, NOCTOWL
+	db 52, BOOTBOOT
 	db 53, BELLEDAM
-	db 54, MURKROW
+	db 54, MAGIKROW
 	db 53, GOLDUCK
 	db 52, PERSIAN
-	db 53, NOCTOWL
-	db 53, NOCTOWL
+	db 53, BOOTBOOT
+	db 53, BOOTBOOT
 	
 	ELIF DEF(_SILVER)
 	; morn
@@ -227,24 +227,24 @@ KantoGrassWildMons:
 	db 54, PIDGEOT
 	db 53, MADAME
 	db 52, RATICATE
-	db 53, JUMPLUFF
-	db 53, JUMPLUFF
+	db 53, WATANEKO
+	db 53, WATANEKO
 	; day
 	db 52, PIDGEOTTO
 	db 53, VULPIX
 	db 54, PIDGEOT
 	db 53, MADAME
 	db 52, RATICATE
-	db 53, JUMPLUFF
-	db 53, JUMPLUFF
+	db 53, WATANEKO
+	db 53, WATANEKO
 	; nite
-	db 52, NOCTOWL
+	db 52, BOOTBOOT
 	db 53, PERSIAN
-	db 54, MURKROW
+	db 54, MAGIKROW
 	db 53, GOLDUCK
 	db 52, BELLEDAM
-	db 53, NOCTOWL
-	db 53, NOCTOWL
+	db 53, BOOTBOOT
+	db 53, BOOTBOOT
 	ENDC
 	
 	map_id NANJO_FOREST
@@ -252,54 +252,54 @@ KantoGrassWildMons:
 	; morn
 	db 53, PARASECT
 	db 53, FEAROW
-	db 54, JUMPLUFF
-	db 53, SKIPLOOM
+	db 54, WATANEKO
+	db 53, POPONEKO
 	db 55, SUNFLORA
-	db 53, AIPOM
-	db 55, AIPOM
+	db 53, PRIMATAIL
+	db 55, PRIMATAIL
 	; day
 	db 53, PARASECT
 	db 53, FEAROW
-	db 54, JUMPLUFF
-	db 53, SKIPLOOM
+	db 54, WATANEKO
+	db 53, POPONEKO
 	db 55, SUNFLORA
-	db 53, AIPOM
-	db 55, AIPOM
+	db 53, PRIMATAIL
+	db 55, PRIMATAIL
 	; nite
 	db 53, PARASECT
-	db 53, NOCTOWL
-	db 54, JUMPLUFF
-	db 53, SKIPLOOM
-	db 55, MURKROW
-	db 53, AIPOM
-	db 55, AIPOM
+	db 53, BOOTBOOT
+	db 54, WATANEKO
+	db 53, POPONEKO
+	db 55, MAGIKROW
+	db 53, PRIMATAIL
+	db 55, PRIMATAIL
 
 	map_id KUME_POINT
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
 	db 54, PIDGEOTTO
-	db 54, SKIPLOOM
+	db 54, POPONEKO
 	db 55, PIDGEOT
 	db 55, MADAME
 	db 54, RATICATE
-	db 55, JUMPLUFF
-	db 55, JUMPLUFF
+	db 55, WATANEKO
+	db 55, WATANEKO
 	; day
 	db 54, PIDGEOTTO
-	db 54, SKIPLOOM
+	db 54, POPONEKO
 	db 55, PIDGEOT
 	db 55, MADAME
 	db 54, RATICATE
-	db 55, JUMPLUFF
-	db 55, JUMPLUFF
+	db 55, WATANEKO
+	db 55, WATANEKO
 	; nite
-	db 54, NOCTOWL
+	db 54, BOOTBOOT
 	db 54, RATICATE
-	db 55, NOCTOWL
+	db 55, BOOTBOOT
 	db 55, MADAME
 	db 54, RATICATE
-	db 55, NOCTOWL
-	db 55, NOCTOWL
+	db 55, BOOTBOOT
+	db 55, BOOTBOOT
 	
 	map_id RESEARCH_FACILITY_ENTRANCE
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
@@ -352,9 +352,9 @@ KantoGrassWildMons:
 	db 56, DEWGONG
 	db 55, WARFURS
 	db 55, SLOWPOKE
-	db 57, SNEASEL
+	db 57, BITACHI
 	db 56, QUAGSIRE
-	db 58, SNEASEL
+	db 58, BITACHI
 	
 	map_id ICED_CAVERN_B1F
 	db 4 percent, 4 percent, 4 percent ; encounter rates: morn/day/nite
@@ -379,9 +379,9 @@ KantoGrassWildMons:
 	db 56, DEWGONG
 	db 55, WARFURS
 	db 55, SLOWBRO
-	db 57, SNEASEL
+	db 57, BITACHI
 	db 56, WEARLYCAN
-	db 58, SNEASEL
+	db 58, BITACHI
 
 
 	map_id TROPICAL_ISLAND
@@ -408,8 +408,8 @@ KantoGrassWildMons:
 	db 55, GOLDUCK
 	db 55, EXEGGUTOR
 	db 57, EXEGGUTOR
-	db 56, POLITOED
-	db 58, POLITOED
+	db 56, POLIRANA
+	db 58, POLIRANA
 
 	map_id TROPICAL_ISLAND_JUNGLE
 	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
@@ -470,7 +470,7 @@ KantoGrassWildMons:
 	IF DEF(_GOLD)
 	; morn
 	db 55, BUTTERFREE
-	db 56, LEDIAN
+	db 56, TRIPSTAR
 	db 55, JIGGLYPUFF
 	db 55, PIKACHU
 	db 57, EXEGGUTOR
@@ -478,7 +478,7 @@ KantoGrassWildMons:
 	db 58, TOGEPI
 	; day
 	db 55, BUTTERFREE
-	db 56, LEDIAN
+	db 56, TRIPSTAR
 	db 55, JIGGLYPUFF
 	db 55, PIKACHU
 	db 57, EXEGGUTOR
@@ -496,7 +496,7 @@ KantoGrassWildMons:
 	ELIF DEF(_SILVER)
 	; morn
 	db 55, BEEDRILL
-	db 56, LEDIAN
+	db 56, TRIPSTAR
 	db 55, JIGGLYPUFF
 	db 55, PIKACHU
 	db 57, EXEGGUTOR
@@ -504,7 +504,7 @@ KantoGrassWildMons:
 	db 58, TOGEPI
 	; day
 	db 55, BEEDRILL
-	db 56, LEDIAN
+	db 56, TRIPSTAR
 	db 55, JIGGLYPUFF
 	db 55, PIKACHU
 	db 57, EXEGGUTOR
@@ -524,26 +524,26 @@ KantoGrassWildMons:
 	map_id TATSUGO_PATH
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	db 44, SKIPLOOM
+	db 44, POPONEKO
 	db 45, FEAROW
 	db 45, PIDGEOTTO
 	db 48, PIDGEOT
-	db 44, JUMPLUFF
+	db 44, WATANEKO
 	db 46, BELLOSSOM
 	db 48, BELLOSSOM
 	; day
-	db 44, SKIPLOOM
+	db 44, POPONEKO
 	db 45, FEAROW
 	db 45, PIDGEOTTO
 	db 48, PIDGEOT
-	db 44, JUMPLUFF
+	db 44, WATANEKO
 	db 46, BELLOSSOM
 	db 48, BELLOSSOM
 	; nite
 	db 44, GLOOM
-	db 45, MURKROW
+	db 45, MAGIKROW
 	db 45, HAUNTER
-	db 48, NOCTOWL
+	db 48, BOOTBOOT
 	db 44, POLIWHIRL
 	db 46, VILEPLUME
 	db 48, VILEPLUME
@@ -637,26 +637,26 @@ KantoGrassWildMons:
 	db 52, RATICATE
 	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, ARIADOS
+	db 53, TUHEDD
 	db 52, HAUNTER
 	db 53, PHANDARIN
-	db 53, ARIADOS
+	db 53, TUHEDD
 	; day
 	db 52, RATICATE
 	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, ARIADOS
+	db 53, TUHEDD
 	db 52, HAUNTER
 	db 53, PHANDARIN
-	db 53, ARIADOS
+	db 53, TUHEDD
 	; nite
 	db 52, RATICATE
 	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, ARIADOS
+	db 53, TUHEDD
 	db 52, HAUNTER
 	db 53, PHANDARIN
-	db 53, ARIADOS
+	db 53, TUHEDD
 	
 	map_id CASTLE_MOUNTAIN_1F_LONG_HALL
 	db 5 percent, 5 percent, 5 percent ; encounter rates: morn/day/nite
@@ -664,26 +664,26 @@ KantoGrassWildMons:
 	db 52, RATICATE
 	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, ARIADOS
+	db 53, TUHEDD
 	db 52, HAUNTER
 	db 53, PHANDARIN
-	db 53, ARIADOS
+	db 53, TUHEDD
 	; day
 	db 52, RATICATE
 	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, ARIADOS
+	db 53, TUHEDD
 	db 52, HAUNTER
 	db 53, PHANDARIN
-	db 53, ARIADOS
+	db 53, TUHEDD
 	; nite
 	db 52, RATICATE
 	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, ARIADOS
+	db 53, TUHEDD
 	db 52, HAUNTER
 	db 53, PHANDARIN
-	db 53, ARIADOS
+	db 53, TUHEDD
 	
 	map_id CASTLE_MOUNTAIN_1F_DANCE_HALL
 	db 3 percent, 3 percent, 3 percent ; encounter rates: morn/day/nite
@@ -691,26 +691,26 @@ KantoGrassWildMons:
 	db 52, RATICATE
 	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, ARIADOS
+	db 53, TUHEDD
 	db 52, HAUNTER
 	db 53, PHANDARIN
-	db 53, ARIADOS
+	db 53, TUHEDD
 	; day
 	db 52, RATICATE
 	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, ARIADOS
+	db 53, TUHEDD
 	db 52, HAUNTER
 	db 53, PHANDARIN
-	db 53, ARIADOS
+	db 53, TUHEDD
 	; nite
 	db 52, RATICATE
 	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, ARIADOS
+	db 53, TUHEDD
 	db 52, HAUNTER
 	db 53, PHANDARIN
-	db 53, ARIADOS
+	db 53, TUHEDD
 	
 	map_id CASTLE_MOUNTAIN_1F_DINING_HALL
 	db 3 percent, 3 percent, 3 percent ; encounter rates: morn/day/nite
@@ -718,26 +718,26 @@ KantoGrassWildMons:
 	db 52, RATICATE
 	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, ARIADOS
+	db 53, TUHEDD
 	db 52, HAUNTER
 	db 53, PHANDARIN
-	db 53, ARIADOS
+	db 53, TUHEDD
 	; day
 	db 52, RATICATE
 	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, ARIADOS
+	db 53, TUHEDD
 	db 52, HAUNTER
 	db 53, PHANDARIN
-	db 53, ARIADOS
+	db 53, TUHEDD
 	; nite
 	db 52, RATICATE
 	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, ARIADOS
+	db 53, TUHEDD
 	db 52, HAUNTER
 	db 53, PHANDARIN
-	db 53, ARIADOS
+	db 53, TUHEDD
 	
 	map_id CASTLE_MOUNTAIN_2F
 	db 5 percent, 5 percent, 5 percent ; encounter rates: morn/day/nite
@@ -748,7 +748,7 @@ KantoGrassWildMons:
 	db 53, BELLEDAM
 	db 52, HAUNTER
 	db 53, PHANDARIN
-	db 56, ARIADOS
+	db 56, TUHEDD
 	; day
 	db 52, HAUNTER
 	db 52, STROMEN
@@ -756,7 +756,7 @@ KantoGrassWildMons:
 	db 53, BELLEDAM
 	db 52, HAUNTER
 	db 53, PHANDARIN
-	db 56, ARIADOS
+	db 56, TUHEDD
 	; nite
 	db 52, HAUNTER
 	db 52, STROMEN
@@ -764,61 +764,61 @@ KantoGrassWildMons:
 	db 53, BELLEDAM
 	db 52, HAUNTER
 	db 53, PHANDARIN
-	db 56, ARIADOS
+	db 56, TUHEDD
 	
 	map_id CASTLE_MOUNTAIN_3FA
 	db 3 percent, 3 percent, 3 percent ; encounter rates: morn/day/nite
 	; morn
-	db 52, MURKROW
+	db 52, MAGIKROW
 	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, ARIADOS
+	db 53, TUHEDD
 	db 52, RATICATE
 	db 53, PHANDARIN
-	db 53, ARIADOS
+	db 53, TUHEDD
 	; day
-	db 52, MURKROW
+	db 52, MAGIKROW
 	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, ARIADOS
+	db 53, TUHEDD
 	db 52, RATICATE
 	db 53, PHANDARIN
-	db 53, ARIADOS
+	db 53, TUHEDD
 	; nite
-	db 52, MURKROW
+	db 52, MAGIKROW
 	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, ARIADOS
+	db 53, TUHEDD
 	db 52, RATICATE
 	db 53, PHANDARIN
-	db 53, ARIADOS
+	db 53, TUHEDD
 	
 	map_id CASTLE_MOUNTAIN_3FB
 	db 3 percent, 3 percent, 3 percent ; encounter rates: morn/day/nite
 	; morn
-	db 52, MURKROW
+	db 52, MAGIKROW
 	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, ARIADOS
+	db 53, TUHEDD
 	db 52, RATICATE
 	db 53, PHANDARIN
-	db 53, ARIADOS
+	db 53, TUHEDD
 	; day
-	db 52, MURKROW
+	db 52, MAGIKROW
 	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, ARIADOS
+	db 53, TUHEDD
 	db 52, RATICATE
 	db 53, PHANDARIN
-	db 53, ARIADOS
+	db 53, TUHEDD
 	; nite
-	db 52, MURKROW
+	db 52, MAGIKROW
 	db 52, STROMEN
 	db 53, HAUNTER
-	db 53, ARIADOS
+	db 53, TUHEDD
 	db 52, RATICATE
 	db 53, PHANDARIN
-	db 53, ARIADOS
+	db 53, TUHEDD
 	
 	map_id CASTLE_MOUNTAIN_1F_CAVE
 	db 3 percent, 3 percent, 3 percent ; encounter rates: morn/day/nite

@@ -572,14 +572,14 @@ Credits_LoadBorderGFX:
 	ret
 
 .Frames:
-	dw CreditsPichuGFX
-	dw CreditsPichuGFX     + 16 tiles
-	dw CreditsPichuGFX     + 32 tiles
-	dw CreditsPichuGFX     + 48 tiles
-	dw CreditsSmoochumGFX
-	dw CreditsSmoochumGFX  + 16 tiles
-	dw CreditsSmoochumGFX  + 32 tiles
-	dw CreditsSmoochumGFX  + 48 tiles
+	dw CreditsPichunkGFX
+	dw CreditsPichunkGFX     + 16 tiles
+	dw CreditsPichunkGFX     + 32 tiles
+	dw CreditsPichunkGFX     + 48 tiles
+	dw CreditsBesitoGFX
+	dw CreditsBesitoGFX  + 16 tiles
+	dw CreditsBesitoGFX  + 32 tiles
+	dw CreditsBesitoGFX  + 48 tiles
 	dw CreditsDittoGFX
 	dw CreditsDittoGFX     + 16 tiles
 	dw CreditsDittoGFX     + 32 tiles
@@ -606,8 +606,8 @@ Credits_TheEnd:
 CreditsBorderGFX:    INCBIN "gfx/credits/border.2bpp"
 
 CreditsMonsGFX: ; used only for BANK(CreditsMonsGFX)
-CreditsPichuGFX:     INCBIN "gfx/credits/pichu.2bpp"
-CreditsSmoochumGFX:  INCBIN "gfx/credits/smoochum.2bpp"
+CreditsPichunkGFX:     INCBIN "gfx/credits/pichunk.2bpp"
+CreditsBesitoGFX:  INCBIN "gfx/credits/besito.2bpp"
 CreditsDittoGFX:     INCBIN "gfx/credits/ditto.2bpp"
 CreditsIgglybuffGFX: INCBIN "gfx/credits/igglybuff.2bpp"
 

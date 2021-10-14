@@ -1,5 +1,5 @@
 	const_def 2 ; object constants
-	const ECRUTEAKBLISSEYSPEECHHOUSE_FISHER
+	const ECRUTEAKJUBILEYSPEECHHOUSE_FISHER
 
 TeknosOldRodHouse_MapScripts:
 	db 0 ; scene scripts
@@ -7,7 +7,7 @@ TeknosOldRodHouse_MapScripts:
 	db 0 ; callbacks
 
 
-BlisseySpeechHouseRadio:
+JubileySpeechHouseRadio:
 	jumpstd radio2
 	
 
@@ -91,7 +91,7 @@ TeknosOldRodHouse_MapEvents:
 	db 0 ; coord events
 
 	db 1 ; bg events
-	bg_event  4,  1, BGEVENT_READ, BlisseySpeechHouseRadio
+	bg_event  4,  1, BGEVENT_READ, JubileySpeechHouseRadio
 
 	db 1 ; object events
 	object_event  7,  3, SPRITE_FISHING_GURU, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Route32Pokecenter1FFishingGuruScript, -1

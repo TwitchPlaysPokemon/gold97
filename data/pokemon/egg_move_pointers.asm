@@ -174,8 +174,8 @@ endc
 	dw NoEggMoves
 	dw KotoraEggMoves
 	dw NoEggMoves
-	dw PichuEggMoves
-	dw CleffaEggMoves
+	dw PichunkEggMoves
+	dw CleffeyEggMoves
 	dw IgglybuffEggMoves
 	dw TogepiEggMoves
 	dw KoltaEggMoves
@@ -189,10 +189,10 @@ endc
 	dw GrenmarEggMoves
 	dw BellignanEggMoves
 	dw NoEggMoves
-	dw HoppipEggMoves
+	dw HanekoEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw AipomEggMoves
+	dw PrimatailEggMoves
 	dw OrfryEggMoves
 	dw NoEggMoves
 	dw MolambinoEggMoves
@@ -200,7 +200,7 @@ endc
 	dw LurreelEggMoves
 	dw NoEggMoves
 	dw NoEggMoves
-	dw MurkrowEggMoves
+	dw MagikrowEggMoves
 	dw NoEggMoves
 	dw VulpiiiEggMoves
 	dw NoEggMoves
@@ -213,11 +213,11 @@ endc
 	dw NoEggMoves
 	dw SnubbullEggMoves
 	dw QuagsireEggMoves
-	dw HeracrossEggMoves
+	dw PlucksEggMoves
 	dw NoEggMoves
 	dw MoibelleEggMoves
 	dw NoEggMoves
-	dw SneaselEggMoves
+	dw BitachiEggMoves
 	dw QwilfishEggMoves
 	dw NoEggMoves
 	dw CoinpurEggMoves
@@ -227,8 +227,8 @@ endc
 	dw PupperonEggMoves
 	dw RemoraidEggMoves
 	dw NoEggMoves
-	dw DelibirdEggMoves
-	dw MantineEggMoves
+	dw PengiftEggMoves
+	dw RayleepEggMoves
 	dw SkarmoryEggMoves
 	dw HoundourEggMoves
 	dw NoEggMoves
@@ -238,11 +238,11 @@ endc
 	dw NoEggMoves
 	dw BaririnaEggMoves
 	dw NoEggMoves
-	dw TyrogueEggMoves
+	dw BegongerEggMoves
 	dw NoEggMoves
-	dw SmoochumEggMoves
-	dw ElekidEggMoves
-	dw MagbyEggMoves
+	dw BesitoEggMoves
+	dw ElebabeEggMoves
+	dw MagbratEggMoves
 	dw DodaerieEggMoves
 	dw MiltankEggMoves
 	dw NoEggMoves

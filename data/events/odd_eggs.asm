@@ -9,12 +9,12 @@ ENDM
 ;Female Shiny Egg DVs: 7/10/10/10
 OddEggProbabilities:
 prob_total = 0
-; Pichu
+; Pichunk
 	prob 4
 	prob 4
 	prob 3
 	prob 3
-; Igglybuff/cleffa
+; Igglybuff/cleffey
 	prob 2
 	prob 6
 	prob 1
@@ -24,20 +24,20 @@ prob_total = 0
 	prob 4
 	prob 3
 	prob 3
-; Smoochum
+; Besito
 	prob 8
 	prob 6
-; Magby
+; Magbrat
 	prob 6
 	prob 2
 	prob 5
 	prob 1
-; Elekid
+; Elebabe
 	prob 6
 	prob 2
 	prob 5
 	prob 1
-; Tyrogue
+; Begonger
 	prob 8
 	prob 6
 
@@ -45,7 +45,7 @@ prob_total = 0
 OddEggs:
 
 OddEgg1:
-	db PICHU
+	db PICHUNK
 	db NO_ITEM
 	db THUNDERSHOCK, CHARM, DIZZY_PUNCH, 0
 	dw 02048 ; OT ID
@@ -72,7 +72,7 @@ OddEgg1:
 	db "EGG@@@@@@@@"
 	
 OddEgg2:
-	db PICHU
+	db PICHUNK
 	db NO_ITEM
 	db THUNDERSHOCK, CHARM, DIZZY_PUNCH, 0
 	dw 02048 ; OT ID
@@ -98,7 +98,7 @@ OddEgg2:
 	bigdw 9 ; SDef
 	db "EGG@@@@@@@@"
 	
-	db PICHU
+	db PICHUNK
 	db NO_ITEM
 	db THUNDERSHOCK, CHARM, DIZZY_PUNCH, 0
 	dw 00256 ; OT ID
@@ -124,7 +124,7 @@ OddEgg2:
 	bigdw 9 ; SDef
 	db "EGG@@@@@@@@"
 	
-	db PICHU
+	db PICHUNK
 	db NO_ITEM
 	db THUNDERSHOCK, CHARM, DIZZY_PUNCH, 0
 	dw 00256 ; OT ID
@@ -151,7 +151,7 @@ OddEgg2:
 	db "EGG@@@@@@@@"
 
 	IF DEF(_GOLD)
-	db CLEFFA
+	db CLEFFEY
 	db NO_ITEM
 	db POUND, CHARM, ENCORE, DIZZY_PUNCH
 	ELIF DEF(_SILVER)
@@ -187,7 +187,7 @@ OddEgg2:
 	db "EGG@@@@@@@@"
 
 	IF DEF(_GOLD)
-	db CLEFFA
+	db CLEFFEY
 	db NO_ITEM
 	db POUND, CHARM, ENCORE, DIZZY_PUNCH
 	ELIF DEF(_SILVER)
@@ -223,7 +223,7 @@ OddEgg2:
 	db "EGG@@@@@@@@"
 	
 	IF DEF(_GOLD)
-	db CLEFFA
+	db CLEFFEY
 	db NO_ITEM
 	db POUND, CHARM, ENCORE, DIZZY_PUNCH
 	ELIF DEF(_SILVER)
@@ -259,7 +259,7 @@ OddEgg2:
 	db "EGG@@@@@@@@"
 	
 	IF DEF(_GOLD)
-	db CLEFFA
+	db CLEFFEY
 	db NO_ITEM
 	db POUND, CHARM, ENCORE, DIZZY_PUNCH
 	ELIF DEF(_SILVER)
@@ -398,7 +398,7 @@ OddEgg2:
 	bigdw 10 ; SDef
 	db "EGG@@@@@@@@"
 
-	db SMOOCHUM
+	db BESITO
 	db NO_ITEM
 	db POUND, LICK, DIZZY_PUNCH, 0
 	dw 03584 ; OT ID
@@ -424,7 +424,7 @@ OddEgg2:
 	bigdw 12 ; SDef
 	db "EGG@@@@@@@@"
 
-	db SMOOCHUM
+	db BESITO
 	db NO_ITEM
 	db POUND, LICK, DIZZY_PUNCH, 0
 	dw 00512 ; OT ID
@@ -450,7 +450,7 @@ OddEgg2:
 	bigdw 12 ; SDef
 	db "EGG@@@@@@@@"
 
-	db MAGBY
+	db MAGBRAT
 	db NO_ITEM
 	db SMOG, LEER, DIZZY_PUNCH, 0
 	dw 02560 ; OT ID
@@ -476,7 +476,7 @@ OddEgg2:
 	bigdw 11 ; SDef
 	db "EGG@@@@@@@@"
 
-	db MAGBY
+	db MAGBRAT
 	db NO_ITEM
 	db SMOG, LEER, DIZZY_PUNCH, 0
 	dw 02560 ; OT ID
@@ -502,7 +502,7 @@ OddEgg2:
 	bigdw 11 ; SDef
 	db "EGG@@@@@@@@"
 	
-	db MAGBY
+	db MAGBRAT
 	db NO_ITEM
 	db SMOG, LEER, DIZZY_PUNCH, 0
 	dw 02560 ; OT ID
@@ -528,7 +528,7 @@ OddEgg2:
 	bigdw 11 ; SDef
 	db "EGG@@@@@@@@"
 	
-	db MAGBY
+	db MAGBRAT
 	db NO_ITEM
 	db SMOG, LEER, DIZZY_PUNCH, 0
 	dw 02560 ; OT ID
@@ -554,7 +554,7 @@ OddEgg2:
 	bigdw 11 ; SDef
 	db "EGG@@@@@@@@"
 
-	db ELEKID
+	db ELEBABE
 	db NO_ITEM
 	db QUICK_ATTACK, LEER, DIZZY_PUNCH, 0
 	dw 03072 ; OT ID
@@ -580,7 +580,7 @@ OddEgg2:
 	bigdw 11 ; SDef
 	db "EGG@@@@@@@@"
 
-	db ELEKID
+	db ELEBABE
 	db NO_ITEM
 	db QUICK_ATTACK, LEER, DIZZY_PUNCH, 0
 	dw 03072 ; OT ID
@@ -606,7 +606,7 @@ OddEgg2:
 	bigdw 11 ; SDef
 	db "EGG@@@@@@@@"
 	
-	db ELEKID
+	db ELEBABE
 	db NO_ITEM
 	db QUICK_ATTACK, LEER, DIZZY_PUNCH, 0
 	dw 03072 ; OT ID
@@ -632,7 +632,7 @@ OddEgg2:
 	bigdw 11 ; SDef
 	db "EGG@@@@@@@@"
 	
-	db ELEKID
+	db ELEBABE
 	db NO_ITEM
 	db QUICK_ATTACK, LEER, DIZZY_PUNCH, 0
 	dw 03072 ; OT ID
@@ -658,7 +658,7 @@ OddEgg2:
 	bigdw 11 ; SDef
 	db "EGG@@@@@@@@"
 
-	db TYROGUE
+	db BEGONGER
 	db NO_ITEM
 	db TACKLE, DIZZY_PUNCH, 0, 0
 	dw 02560 ; OT ID
@@ -684,7 +684,7 @@ OddEgg2:
 	bigdw 9 ; SDef
 	db "EGG@@@@@@@@"
 
-	db TYROGUE
+	db BEGONGER
 	db NO_ITEM
 	db TACKLE, DIZZY_PUNCH, 0, 0
 	dw 00256 ; OT ID

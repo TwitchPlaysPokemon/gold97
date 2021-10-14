@@ -315,7 +315,7 @@ GruntF15BeatenText:
 	done
 	
 GruntF15AfterBattleText:
-	text "SNEASEL is cute"
+	text "BITACHI is cute"
 	line "but deceptively"
 	cont "sneaky, like me!"
 	done

@@ -11,13 +11,13 @@ AsleepTreeMonsNite:
 	db EKANS
 	db EXEGGCUTE
 	db LEDYBA
-	db AIPOM
+	db PRIMATAIL
 	db -1 ; end
 
 AsleepTreeMonsDay:
 	db VENONAT
 	db HOOTHOOT
-	db NOCTOWL
+	db BOOTBOOT
 	db SPINARAK
 	db SCYTHER
 	db PINSIR
@@ -26,7 +26,7 @@ AsleepTreeMonsDay:
 AsleepTreeMonsMorn:
 	db VENONAT
 	db HOOTHOOT
-	db NOCTOWL
+	db BOOTBOOT
 	db SPINARAK
 	db SCYTHER
 	db PINSIR

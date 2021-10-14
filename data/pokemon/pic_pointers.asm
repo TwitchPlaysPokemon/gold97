@@ -328,26 +328,26 @@ PokemonPicPointers::
 	dba_pic JungelaBackpic
 	dba_pic HoothootFrontpic
 	dba_pic HoothootBackpic
-	dba_pic NoctowlFrontpic
-	dba_pic NoctowlBackpic
+	dba_pic BootbootFrontpic
+	dba_pic BootbootBackpic
 	dba_pic LedybaFrontpic
 	dba_pic LedybaBackpic
-	dba_pic LedianFrontpic
-	dba_pic LedianBackpic
+	dba_pic TripstarFrontpic
+	dba_pic TripstarBackpic
 	dba_pic SpinarakFrontpic
 	dba_pic SpinarakBackpic
-	dba_pic AriadosFrontpic
-	dba_pic AriadosBackpic
+	dba_pic TuheddFrontpic
+	dba_pic TuheddBackpic
 	dba_pic CrobatFrontpic
 	dba_pic CrobatBackpic
 	dba_pic KotoraFrontpic
 	dba_pic KotoraBackpic
 	dba_pic RaitoraFrontpic
 	dba_pic RaitoraBackpic
-	dba_pic PichuFrontpic
-	dba_pic PichuBackpic
-	dba_pic CleffaFrontpic
-	dba_pic CleffaBackpic
+	dba_pic PichunkFrontpic
+	dba_pic PichunkBackpic
+	dba_pic CleffeyFrontpic
+	dba_pic CleffeyBackpic
 	dba_pic IgglybuffFrontpic
 	dba_pic IgglybuffBackpic
 	dba_pic TogepiFrontpic
@@ -372,16 +372,16 @@ PokemonPicPointers::
 	dba_pic GrenmarBackpic
 	dba_pic BellignanFrontpic
 	dba_pic BellignanBackpic
-	dba_pic PolitoedFrontpic
-	dba_pic PolitoedBackpic
-	dba_pic HoppipFrontpic
-	dba_pic HoppipBackpic
-	dba_pic SkiploomFrontpic
-	dba_pic SkiploomBackpic
-	dba_pic JumpluffFrontpic
-	dba_pic JumpluffBackpic
-	dba_pic AipomFrontpic
-	dba_pic AipomBackpic
+	dba_pic PoliranaFrontpic
+	dba_pic PoliranaBackpic
+	dba_pic HanekoFrontpic
+	dba_pic HanekoBackpic
+	dba_pic PoponekoFrontpic
+	dba_pic PoponekoBackpic
+	dba_pic WatanekoFrontpic
+	dba_pic WatanekoBackpic
+	dba_pic PrimatailFrontpic
+	dba_pic PrimatailBackpic
 	dba_pic OrfryFrontpic
 	dba_pic OrfryBackpic
 	dba_pic SunfloraFrontpic
@@ -396,8 +396,8 @@ PokemonPicPointers::
 	dba_pic EspeonBackpic
 	dba_pic UmbreonFrontpic
 	dba_pic UmbreonBackpic
-	dba_pic MurkrowFrontpic
-	dba_pic MurkrowBackpic
+	dba_pic MagikrowFrontpic
+	dba_pic MagikrowBackpic
 	dba_pic SlowkingFrontpic
 	dba_pic SlowkingBackpic
 	dba_pic VulpiiiFrontpic
@@ -409,8 +409,8 @@ PokemonPicPointers::
 
 	dba_pic BipullaFrontpic
 	dba_pic BipullaBackpic
-	dba_pic GirafarigFrontpic
-	dba_pic GirafarigBackpic
+	dba_pic KirinirikFrontpic
+	dba_pic KirinirikBackpic
 	dba_pic DisturbanFrontpic
 	dba_pic DisturbanBackpic
 	dba_pic SmujjFrontpic
@@ -425,16 +425,16 @@ PokemonPicPointers::
 	dba_pic SnubbullBackpic
 	dba_pic QuagsireFrontpic
 	dba_pic QuagsireBackpic
-	dba_pic HeracrossFrontpic
-	dba_pic HeracrossBackpic
-	dba_pic ScizorFrontpic
-	dba_pic ScizorBackpic
+	dba_pic PlucksFrontpic
+	dba_pic PlucksBackpic
+	dba_pic TearorFrontpic
+	dba_pic TearorBackpic
 	dba_pic MoibelleFrontpic
 	dba_pic MoibelleBackpic
 	dba_pic BelledamFrontpic
 	dba_pic BelledamBackpic
-	dba_pic SneaselFrontpic
-	dba_pic SneaselBackpic
+	dba_pic BitachiFrontpic
+	dba_pic BitachiBackpic
 	dba_pic QwilfishFrontpic
 	dba_pic QwilfishBackpic
 	dba_pic KazappelinFrontpic
@@ -451,65 +451,65 @@ PokemonPicPointers::
 	dba_pic PupperonBackpic
 	dba_pic RemoraidFrontpic
 	dba_pic RemoraidBackpic
-	dba_pic OctilleryFrontpic
-	dba_pic OctilleryBackpic
-	dba_pic DelibirdFrontpic
-	dba_pic DelibirdBackpic
-	dba_pic MantineFrontpic
-	dba_pic MantineBackpic
+	dba_pic OctotankFrontpic
+	dba_pic OctotankBackpic
+	dba_pic PengiftFrontpic
+	dba_pic PengiftBackpic
+	dba_pic RayleepFrontpic
+	dba_pic RayleepBackpic
 	dba_pic SkarmoryFrontpic
 	dba_pic SkarmoryBackpic
 	dba_pic HoundourFrontpic
 	dba_pic HoundourBackpic
 	dba_pic HoundoomFrontpic
 	dba_pic HoundoomBackpic
-	dba_pic KingdraFrontpic
-	dba_pic KingdraBackpic
+	dba_pic HigedoraFrontpic
+	dba_pic HigedoraBackpic
 	dba_pic PhanpyFrontpic
 	dba_pic PhanpyBackpic
 	dba_pic DonphanFrontpic
 	dba_pic DonphanBackpic
-	dba_pic Porygon2Frontpic
-	dba_pic Porygon2Backpic
+	dba_pic DonpongonFrontpic
+	dba_pic DonpongonBackpic
 	dba_pic BaririnaFrontpic
 	dba_pic BaririnaBackpic
 	dba_pic SmeargleFrontpic
 	dba_pic SmeargleBackpic
-	dba_pic TyrogueFrontpic
-	dba_pic TyrogueBackpic
-	dba_pic HitmontopFrontpic
-	dba_pic HitmontopBackpic
-	dba_pic SmoochumFrontpic
-	dba_pic SmoochumBackpic
-	dba_pic ElekidFrontpic
-	dba_pic ElekidBackpic
-	dba_pic MagbyFrontpic
-	dba_pic MagbyBackpic
+	dba_pic BegongerFrontpic
+	dba_pic BegongerBackpic
+	dba_pic HitmonbaFrontpic
+	dba_pic HitmonbaBackpic
+	dba_pic BesitoFrontpic
+	dba_pic BesitoBackpic
+	dba_pic ElebabeFrontpic
+	dba_pic ElebabeBackpic
+	dba_pic MagbratFrontpic
+	dba_pic MagbratBackpic
 	dba_pic DodaerieFrontpic
 	dba_pic DodaerieBackpic
 	dba_pic MiltankFrontpic
 	dba_pic MiltankBackpic
-	dba_pic RaikouFrontpic
-	dba_pic RaikouBackpic
-	dba_pic EnteiFrontpic
-	dba_pic EnteiBackpic
-	dba_pic SuicuneFrontpic
-	dba_pic SuicuneBackpic
+	dba_pic RaiFrontpic
+	dba_pic RaiBackpic
+	dba_pic EnFrontpic
+	dba_pic EnBackpic
+	dba_pic SuiFrontpic
+	dba_pic SuiBackpic
 	dba_pic WarfursFrontpic
 	dba_pic WarfursBackpic
 	dba_pic WearlycanFrontpic
 	dba_pic WearlycanBackpic
 	dba_pic LickilordFrontpic
 	dba_pic LickilordBackpic
-	dba_pic BlisseyFrontpic
-	dba_pic BlisseyBackpic
+	dba_pic JubileyFrontpic
+	dba_pic JubileyBackpic
 	dba_pic LugiaFrontpic
 	dba_pic LugiaBackpic
 	dba_pic HoOhFrontpic
 	dba_pic HoOhBackpic
 	dba_pic LeafeonFrontpic
 	dba_pic LeafeonBackpic
-	dba_pic AzumarillFrontpic
-	dba_pic AzumarillBackpic
+	dba_pic AmarilleFrontpic
+	dba_pic AmarilleBackpic
 	dba_pic EggPic
 	dbw -1, -1 ; unused

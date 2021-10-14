@@ -111,13 +111,13 @@ SpriteAnimOAMData:
 	dbw $27, .OAMData_MobileTradePing3         ; SPRITE_ANIM_OAMSET_MOBILE_TRADE_PING_3
 	dbw $2a, .OAMData_MobileTradeSentPulse     ; SPRITE_ANIM_OAMSET_MOBILE_TRADE_SENT_PULSE
 	dbw $2a, .OAMData_MobileTradeOTPulse       ; SPRITE_ANIM_OAMSET_MOBILE_TRADE_OT_PULSE
-	dbw $00, .OAMData_IntroSuicune1            ; SPRITE_ANIM_OAMSET_INTRO_SUICUNE_1
-	dbw $08, .OAMData_IntroSuicune2            ; SPRITE_ANIM_OAMSET_INTRO_SUICUNE_2
-	dbw $60, .OAMData_IntroSuicune3            ; SPRITE_ANIM_OAMSET_INTRO_SUICUNE_3
-	dbw $68, .OAMData_IntroSuicune4            ; SPRITE_ANIM_OAMSET_INTRO_SUICUNE_4
-	dbw $00, .OAMData_IntroPichu               ; SPRITE_ANIM_OAMSET_INTRO_PICHU_1
-	dbw $05, .OAMData_IntroPichu               ; SPRITE_ANIM_OAMSET_INTRO_PICHU_2
-	dbw $0a, .OAMData_IntroPichu               ; SPRITE_ANIM_OAMSET_INTRO_PICHU_3
+	dbw $00, .OAMData_IntroSui1            ; SPRITE_ANIM_OAMSET_INTRO_SUI_1
+	dbw $08, .OAMData_IntroSui2            ; SPRITE_ANIM_OAMSET_INTRO_SUI_2
+	dbw $60, .OAMData_IntroSui3            ; SPRITE_ANIM_OAMSET_INTRO_SUI_3
+	dbw $68, .OAMData_IntroSui4            ; SPRITE_ANIM_OAMSET_INTRO_SUI_4
+	dbw $00, .OAMData_IntroPichunk               ; SPRITE_ANIM_OAMSET_INTRO_PICHUNK_1
+	dbw $05, .OAMData_IntroPichunk               ; SPRITE_ANIM_OAMSET_INTRO_PICHUNK_2
+	dbw $0a, .OAMData_IntroPichunk               ; SPRITE_ANIM_OAMSET_INTRO_PICHUNK_3
 	dbw $50, .OAMData_IntroAngore              ; SPRITE_ANIM_OAMSET_INTRO_ANGORE
 	dbw $00, .OAMData_IntroUnown1              ; SPRITE_ANIM_OAMSET_INTRO_UNOWN_1
 	dbw $01, .OAMData_IntroUnown2              ; SPRITE_ANIM_OAMSET_INTRO_UNOWN_2
@@ -127,7 +127,7 @@ SpriteAnimOAMData:
 	dbw $03, .OAMData_IntroUnownF2_3           ; SPRITE_ANIM_OAMSET_INTRO_UNOWN_F_2_3
 	dbw $08, .OAMData_IntroUnownF2_4_5         ; SPRITE_ANIM_OAMSET_INTRO_UNOWN_F_2_4
 	dbw $1c, .OAMData_IntroUnownF2_4_5         ; SPRITE_ANIM_OAMSET_INTRO_UNOWN_F_2_5
-	dbw $80, .OAMData_IntroSuicuneAway         ; SPRITE_ANIM_OAMSET_INTRO_SUICUNE_AWAY
+	dbw $80, .OAMData_IntroSuiAway         ; SPRITE_ANIM_OAMSET_INTRO_SUI_AWAY
 	dbw $00, .OAMData_Leafeon                   ; SPRITE_ANIM_OAMSET_LEAFEON_1
 	dbw $04, .OAMData_Leafeon                   ; SPRITE_ANIM_OAMSET_LEAFEON_2
 	dbw $d0, .OAMData_GameFreakLogo1_3         ; SPRITE_ANIM_OAMSET_GAMEFREAK_LOGO_1
@@ -866,7 +866,7 @@ SpriteAnimOAMData:
 	dsprite  1,  0,  0,  0, $01, 1 | X_FLIP | Y_FLIP
 	dsprite  1,  0,  1,  0, $00, 1 | X_FLIP | Y_FLIP
 
-.OAMData_IntroSuicune1:
+.OAMData_IntroSui1:
 	db 36
 	dsprite -3,  0,  1,  0, $05, 0
 	dsprite -3,  0,  2,  0, $06, 0
@@ -905,7 +905,7 @@ SpriteAnimOAMData:
 	dsprite  2,  0, -3,  0, $51, 0
 	dsprite  2,  0,  3,  0, $57, 0
 
-.OAMData_IntroSuicune2:
+.OAMData_IntroSui2:
 	db 28
 	dsprite -3,  0,  0,  0, $04, 0
 	dsprite -3,  0,  1,  0, $05, 0
@@ -936,7 +936,7 @@ SpriteAnimOAMData:
 	dsprite  2,  0,  0,  0, $54, 0
 	dsprite  2,  0,  1,  0, $55, 0
 
-.OAMData_IntroSuicune3:
+.OAMData_IntroSui3:
 	db 30
 	dsprite -3,  0,  0,  0, $04, 0
 	dsprite -3,  0,  1,  0, $05, 0
@@ -969,7 +969,7 @@ SpriteAnimOAMData:
 	dsprite  2,  0,  0,  0, $54, 0
 	dsprite  2,  0,  1,  0, $55, 0
 
-.OAMData_IntroSuicune4:
+.OAMData_IntroSui4:
 	db 31
 	dsprite -2,  0, -3,  0, $11, 0
 	dsprite -2,  0, -2,  0, $12, 0
@@ -1003,7 +1003,7 @@ SpriteAnimOAMData:
 	dsprite  2,  0,  0,  0, $54, 0
 	dsprite  2,  0,  1,  0, $55, 0
 
-.OAMData_IntroPichu:
+.OAMData_IntroPichunk:
 	db 25
 	dsprite -3,  4, -3,  4, $00, 1 | VRAM_BANK_1
 	dsprite -3,  4, -2,  4, $01, 1 | VRAM_BANK_1
@@ -1119,7 +1119,7 @@ SpriteAnimOAMData:
 	dsprite  1,  4,  0,  0, $12, 0
 	dsprite  1,  4,  1,  0, $13, 0
 
-.OAMData_IntroSuicuneAway:
+.OAMData_IntroSuiAway:
 	db 20
 	dsprite  0,  0,   1,  0, $00, 1 | PRIORITY
 	dsprite  1,  0,   2,  0, $00, 1 | PRIORITY

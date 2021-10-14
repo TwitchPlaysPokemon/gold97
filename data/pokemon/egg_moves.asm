@@ -492,7 +492,7 @@ KotoraEggMoves:
 	db SCREECH
 	db -1 ; end
 
-PichuEggMoves:
+PichunkEggMoves:
 	db REVERSAL
 	db BIDE
 	db PRESENT
@@ -500,7 +500,7 @@ PichuEggMoves:
 	db DOUBLESLAP
 	db -1 ; end
 
-CleffaEggMoves:
+CleffeyEggMoves:
 	db PRESENT
 	db METRONOME
 	db AMNESIA
@@ -564,7 +564,7 @@ BellignanEggMoves:
 	db SELFDESTRUCT
 	db -1 ; end
 
-HoppipEggMoves:
+HanekoEggMoves:
 	db CONFUSION
 	db GROWL
 	db ENCORE
@@ -574,7 +574,7 @@ HoppipEggMoves:
 	db PAY_DAY
 	db -1 ; end
 
-AipomEggMoves:
+PrimatailEggMoves:
 	db COUNTER
 	db SCREECH
 	db PURSUIT
@@ -603,7 +603,7 @@ LurreelEggMoves:
 	db SAFEGUARD
 	db -1 ; end
 
-MurkrowEggMoves:
+MagikrowEggMoves:
 	db WHIRLWIND
 	db DRILL_PECK
 	db QUICK_ATTACK
@@ -670,7 +670,7 @@ QuagsireEggMoves:
 	db DRAGON_RAGE
 	db FAINT_ATTACK
 
-HeracrossEggMoves:
+PlucksEggMoves:
 	db FLAIL
 	db HAZE
 	db BUBBLEBEAM
@@ -685,7 +685,7 @@ MoibelleEggMoves:
 	db -1 ; end
 
 
-SneaselEggMoves:
+BitachiEggMoves:
 	db COUNTER
 	db SPITE
 	db FORESIGHT
@@ -729,7 +729,7 @@ RemoraidEggMoves:
 	db SCREECH
 	db -1 ; end
 
-DelibirdEggMoves:
+PengiftEggMoves:
 	db AURORA_BEAM
 	db QUICK_ATTACK
 	db FUTURE_SIGHT
@@ -737,7 +737,7 @@ DelibirdEggMoves:
 	db RAPID_SPIN
 	db -1 ; end
 
-MantineEggMoves:
+RayleepEggMoves:
 	db TWISTER
 	db HYDRO_PUMP
 	db HAZE
@@ -778,21 +778,21 @@ BaririnaEggMoves:
 	db MIMIC
 	db -1 ; end
 
-TyrogueEggMoves:
+BegongerEggMoves:
 	db RAPID_SPIN
 	db HI_JUMP_KICK
 	db MACH_PUNCH
 	db MIND_READER
 	db -1 ; end
 
-SmoochumEggMoves:
+BesitoEggMoves:
 if !_CRYSTAL
 	db LOVELY_KISS
 endc
 	db MEDITATE
 	db -1 ; end
 
-ElekidEggMoves:
+ElebabeEggMoves:
 	db KARATE_CHOP
 	db BARRIER
 	db ROLLING_KICK
@@ -802,7 +802,7 @@ if _CRYSTAL
 endc
 	db -1 ; end
 
-MagbyEggMoves:
+MagbratEggMoves:
 	db KARATE_CHOP
 	db MEGA_PUNCH
 	db BARRIER

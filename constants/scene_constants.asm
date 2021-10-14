@@ -96,12 +96,12 @@ SCENE_FINISHED EQU 1
 ; wRoute42SceneID
 	const_def
 	const SCENE_ROUTE42_NOTHING ; 0
-	const SCENE_ROUTE42_SUICUNE ; 1
+	const SCENE_ROUTE42_SUI ; 1
 
 ; wCianwoodCitySceneID
 	const_def
 	const SCENE_CIANWOODCITY_NOTHING            ; 0
-	const SCENE_CIANWOODCITY_SUICUNE_AND_EUSINE ; 1
+	const SCENE_CIANWOODCITY_SUI_AND_EUSINE ; 1
 
 ; wBurnedTower1FSceneID
 	const_def 1

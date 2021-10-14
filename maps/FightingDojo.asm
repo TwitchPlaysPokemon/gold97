@@ -56,31 +56,31 @@ FightingDojoBlackBelt:
 	end
 	
 .BeatAllBlackbelts
-	checkevent EVENT_GOT_TYROGUE_FROM_KIYO
-	iftrue .GotTyrogueDojo
+	checkevent EVENT_GOT_BEGONGER_FROM_KIYO
+	iftrue .GotBegongerDojo
 	opentext
 	writetext Text_BeatEm
 	buttonsound
 	waitsfx
 	checkcode VAR_PARTYCOUNT
-	ifequal PARTY_LENGTH, .NoRoomTyrogue
+	ifequal PARTY_LENGTH, .NoRoomBegonger
 	writetext UnknownText_0x7e3551
 	playsound SFX_CAUGHT_MON
 	waitsfx
-	givepoke TYROGUE, 10
-	setevent EVENT_GOT_TYROGUE_FROM_KIYO
+	givepoke BEGONGER, 10
+	setevent EVENT_GOT_BEGONGER_FROM_KIYO
 	writetext Text_FocusBandDescription
 	waitbutton
 	closetext
 	end
 
-.GotTyrogueDojo:
+.GotBegongerDojo:
 	opentext
 	writetext Text_GoodJob
 	waitbutton
 	closetext
 	end
-.NoRoomTyrogue:
+.NoRoomBegonger:
 	writetext UnknownText_0x7e3df1
 	waitbutton
 	closetext
@@ -141,7 +141,7 @@ TrainerBlackbeltLung:
 	
 UnknownText_0x7e3551:
 	text "<PLAYER> received"
-	line "TYROGUE."
+	line "BEGONGER."
 	done
 	
 UnknownText_0x7e3df1:
@@ -150,7 +150,7 @@ UnknownText_0x7e3df1:
 	done
 	
 Text_FocusBandDescription:
-	text "TYROGUE can evolve"
+	text "BEGONGER can evolve"
 	line "into one of three"
 	para "different FIGHTING"
 	line "#MON!"
