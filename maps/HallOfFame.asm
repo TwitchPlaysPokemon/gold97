@@ -62,9 +62,9 @@ ENDM
     clearifnotcaught ARTICUNO, EVENT_EXPLODING_TRAP_9
     clearifnotcaught ZAPDOS,   EVENT_EXPLODING_TRAP_3
     clearifnotcaught MOLTRES,  EVENT_EXPLODING_TRAP_4
-    clearifnotcaught RAIKOU,   EVENT_AZALEA_TOWN_SLOWPOKES
-    clearifnotcaught ENTEI,    EVENT_RIVAL_AZALEA_TOWN
-    clearifnotcaught SUICUNE,  EVENT_RIVAL_TEAM_ROCKET_BASE
+    clearifnotcaught RAI,      EVENT_AZALEA_TOWN_SLOWPOKES
+    clearifnotcaught EN,       EVENT_RIVAL_AZALEA_TOWN
+    clearifnotcaught SUI,      EVENT_RIVAL_TEAM_ROCKET_BASE
     clearifnotcaught LUGIA,    EVENT_FOUGHT_LUGIA
     clearifnotcaught HO_OH,    EVENT_FOUGHT_HO_OH
     clearifnotcaught MEWTWO,   EVENT_SWITCH_11
